@@ -3,7 +3,7 @@ Een SVG-bestand is een tekstbestand. Je hebt enkel een teksteditor nodig om de t
 Wij zullen gebruikmaken van de online teksteditor [StackBlitz](https://stackblitz.com/fork/web-platform){: target="_blank"}. Daarmee hoef je helemaal geen editor te installeren op je computer, en krijg je bij elke aanpassing meteen ook het resultaat van de afbeelding te zien.
 
 <div class="dodona-centered-group">
-  <img src="media/stackblitz.png" />
+  <img width="80%" src="media/stackblitz.png" />
 </div>
 
 Daar kan je de tekst voor de SVG-afbeelding rechtstreeks in het bestand `index.html` plaatsen. Het is ook niet nodig om HTML-code schrijven. Je kunt je enkel tot de SVG-afbeelding beperken.
