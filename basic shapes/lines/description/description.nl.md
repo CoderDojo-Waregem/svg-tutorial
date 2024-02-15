@@ -14,14 +14,14 @@ We can assign CSS classes to each element and move some attributes to CSS. We ca
 ```
 
 <figure>
-<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread1" width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    gingerbread1 .head {
+    .head1 {
       fill: #cd803d;
     }
   </style>
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
-  <circle class="head" cx="0" cy="-50" r="30" />
+  <circle class="head1" cx="0" cy="-50" r="30" />
 </svg>
 </figure>
 
@@ -45,16 +45,16 @@ To give you a comparison if we remove the line cap and set a smaller `stroke-wid
 ```
 
 <figure>
-<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread2" width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    gingerbread2 .limb {
+    .limb2 {
       stroke: #cd803d;
     }
   </style>
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
-  <line class="limb" x1="-40" y1="-10" x2="40" y2="-10" />
-  <line class="limb" x1="-25" y1="50" x2="0" y2="-15" />
-  <line class="limb" x1="25" y1="50" x2="0" y2="-15" />
+  <line class="limb2" x1="-40" y1="-10" x2="40" y2="-10" />
+  <line class="limb2" x1="-25" y1="50" x2="0" y2="-15" />
+  <line class="limb2" x1="25" y1="50" x2="0" y2="-15" />
 </svg>
 </figure>
 
@@ -76,18 +76,18 @@ But by setting a thick stroke width and a round line cap we can shape legs and a
 ```
 
 <figure>
-<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread3" width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    gingerbread3 .limb {
+    .limb3 {
       stroke: #cd803d;
       stroke-width: 35px;
       stroke-linecap: round;
     }
   </style>
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
-  <line class="limb" x1="-40" y1="-10" x2="40" y2="-10" />
-  <line class="limb" x1="-25" y1="50" x2="0" y2="-15" />
-  <line class="limb" x1="25" y1="50" x2="0" y2="-15" />
+  <line class="limb3" x1="-40" y1="-10" x2="40" y2="-10" />
+  <line class="limb3" x1="-25" y1="50" x2="0" y2="-15" />
+  <line class="limb3" x1="25" y1="50" x2="0" y2="-15" />
 </svg>
 </figure>
 
@@ -113,20 +113,20 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 ```
 
 <figure>
-<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread4" width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    gingerbread4 .head {
+    .head4 {
       fill: #cd803d;
     }
-    gingerbread4 .mouth {
+    .mouth4 {
       fill: none;
       stroke: white;
       stroke-width: 2px;
     }
   </style>
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
-  <circle class="head" cx="0" cy="-50" r="30" />
-  <rect class="mouth" x="-10" y="-40" width="20" height="5" rx="2" />
+  <circle class="head4" cx="0" cy="-50" r="30" />
+  <rect class="mouth4" x="-10" y="-40" width="20" height="5" rx="2" />
 </svg>
 </figure>
 
@@ -167,7 +167,7 @@ Once we put it all together, and add eyes and buttons, this is how the final cod
 ```
 
 <figure>
-<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread" width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200" height="200" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
