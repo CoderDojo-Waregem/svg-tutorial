@@ -14,9 +14,9 @@ We can assign CSS classes to each element and move some attributes to CSS. We ca
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="gingerbread1" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    .head {
+    gingerbread1 .head {
       fill: #cd803d;
     }
   </style>
@@ -45,9 +45,9 @@ To give you a comparison if we remove the line cap and set a smaller `stroke-wid
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="gingerbread2" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    .limb {
+    gingerbread2 .limb {
       stroke: #cd803d;
     }
   </style>
@@ -76,9 +76,9 @@ But by setting a thick stroke width and a round line cap we can shape legs and a
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="gingerbread3" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    .limb {
+    gingerbread3 .limb {
       stroke: #cd803d;
       stroke-width: 35px;
       stroke-linecap: round;
@@ -113,12 +113,12 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="gingerbread4" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
-    .head {
+    gingerbread4 .head {
       fill: #cd803d;
     }
-    .mouth {
+    gingerbread4 .mouth {
       fill: none;
       stroke: white;
       stroke-width: 2px;
