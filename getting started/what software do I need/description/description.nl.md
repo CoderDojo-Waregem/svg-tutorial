@@ -8,7 +8,7 @@ Wij zullen gebruikmaken van de online teksteditor [StackBlitz](https://stackblit
 
 Daar kan je de tekst voor de SVG-afbeelding rechtstreeks in het bestand `index.html` plaatsen. Het is ook niet nodig om HTML-code schrijven. Je kunt je enkel tot de SVG-afbeelding beperken.
 
-```svg
+```html
 <svg width="100" height="100" viewBox="0 0 100 100">
   <cirkel cx="50" cy="50" r="25" fill="red" />
 </svg>
