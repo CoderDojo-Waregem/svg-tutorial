@@ -49,6 +49,8 @@ To give you a comparison if we remove the line cap and set a smaller `stroke-wid
   <style>
     .limb2 {
       stroke: #cd803d;
+      stroke-width: 1px;
+      stroke-linecap: butt;
     }
   </style>
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
