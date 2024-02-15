@@ -15,6 +15,7 @@ In these next three examples, we have three SVGs that have the very same content
 
 <figure>
 <svg width="100" height="100" viewBox="0 0 200 200">
+  <rect x="0" y="0" width="200" height="200" stroke="gray" stroke-dasharray="5,5"/>
   <circle cx="100" cy="100" r="50" />
 </svg>
 </figure>
