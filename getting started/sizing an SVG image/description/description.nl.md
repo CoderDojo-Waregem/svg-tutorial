@@ -7,7 +7,7 @@ De eigenschappen `width` (breedte) en `height` (hoogte) bepalen hoeveel ruimte d
 
 In de volgende drie voorbeelden hebben we drie SVG-afbeeldingen die precies dezelfde inhoud hebben. Een `circle` element met hetzelfde middelpunt en dezelfde straal. Ze zien er echter heel anders uit. Als de door `viewBox` gedefinieerde grootte niet overeenkomt met de eigenschappen `width` en `height`, dan wordt de afbeelding groter of kleiner gemaakt.
 
-```svg
+```html
 <svg width="100" height="100" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -20,7 +20,7 @@ In de volgende drie voorbeelden hebben we drie SVG-afbeeldingen die precies deze
 </svg>
 </figure>
 
-```svg
+```html
 <svg width="200" height="200" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -33,7 +33,7 @@ In de volgende drie voorbeelden hebben we drie SVG-afbeeldingen die precies deze
 </svg>
 </figure>
 
-```svg
+```html
 <svg width="100" height="100" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -50,7 +50,7 @@ We kunnen ook instellen welke coördinaat in de linkerbovenhoek van de afbeeldin
 
 Merk op dat positie van het middelpunt van de cirkel nu `0,0` is.
 
-```svg
+```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
   <circle cx="0" cy="0" r="50" />
 </svg>

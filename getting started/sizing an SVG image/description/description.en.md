@@ -7,7 +7,7 @@ The `width` and `height` properties define how much space the image takes up in 
 
 In these next three examples, we have three SVGs that have the very same content. A `circle` element with the same center coordinate and same radius. They appear quite different though. In case the size defined by `viewBox` does not match the `width` and the `height` properties, then the image scales up or scales down.
 
-```svg
+```html
 <svg width="100" height="100" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -15,12 +15,12 @@ In these next three examples, we have three SVGs that have the very same content
 
 <figure>
 <svg width="100" height="100" viewBox="0 0 200 200">
-  <rect x="0" y="0" width="200" height="200" stroke="gray" stroke-width="4" stroke-dasharray="4,4" fill="none"/>
+  <rect x="0" y="0" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="100" cy="100" r="50" />
 </svg>
 </figure>
 
-```svg
+```html
 <svg width="200" height="200" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -28,12 +28,12 @@ In these next three examples, we have three SVGs that have the very same content
 
 <figure>
 <svg width="200" height="200" viewBox="0 0 200 200">
-  <rect x="0" y="0" width="200" height="200" stroke="gray" stroke-width="2" stroke-dasharray="2,2" fill="none"/>
+  <rect x="0" y="0" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="100" cy="100" r="50" />
 </svg>
 </figure>
 
-```svg
+```html
 <svg width="100" height="100" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -41,7 +41,7 @@ In these next three examples, we have three SVGs that have the very same content
 
 <figure>
 <svg width="200" height="200" viewBox="0 0 100 100">
-  <rect x="0" y="0" width="100" height="100" stroke="gray" stroke-width="1" stroke-dasharray="1,1" fill="none"/>
+  <rect x="0" y="0" width="100" height="100" fill="#F5F1EB"/>
   <circle cx="100" cy="100" r="50" />
 </svg>
 </figure>
@@ -50,7 +50,7 @@ We can also set what coordinate should be in the top-left corner of the image. I
 
 Note that now the center position of the circle is `0,0`.
 
-```svg
+```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
   <circle cx="0" cy="0" r="50" />
 </svg>
@@ -58,7 +58,7 @@ Note that now the center position of the circle is `0,0`.
 
 <figure>
 <svg width="200" height="200" viewBox="-100 -100 200 200">
-  <rect x="-100" y="-100" width="200" height="200" stroke="gray" stroke-width="2" stroke-dasharray="2,2" fill="none"/>
+  <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="0" r="50" />
 </svg>
 </figure>
