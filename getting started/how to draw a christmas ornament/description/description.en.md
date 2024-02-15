@@ -54,5 +54,3 @@ The final code of the image is as follows:
   <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2" />
 </svg>
 </figure>
-
-
