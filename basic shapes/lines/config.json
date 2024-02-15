@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Lines",
+      "nl": "Lijnen"
+    }
+  },
+  "labels": [
+
+  ]
+}
