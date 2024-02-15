@@ -21,19 +21,6 @@ In these next three examples, we have three SVGs that have the very same content
 </figure>
 
 ```svg
-<svg width="100" height="100" viewBox="0 0 200 200">
-  <circle cx="100" cy="100" r="50" />
-</svg>
-```
-
-<figure>
-<svg width="100" height="100" viewBox="0 0 200 200">
-  <rect x="0" y="0" width="200" height="200" stroke="gray" stroke-width="5" stroke-dasharray="5,5" fill="none"/>
-  <circle cx="100" cy="100" r="50" />
-</svg>
-</figure>
-
-```svg
 <svg width="200" height="200" viewBox="0 0 200 200">
   <circle cx="100" cy="100" r="50" />
 </svg>
@@ -41,7 +28,7 @@ In these next three examples, we have three SVGs that have the very same content
 
 <figure>
 <svg width="200" height="200" viewBox="0 0 200 200">
-  <rect x="0" y="0" width="200" height="200" stroke="gray" stroke-width="5" stroke-dasharray="5,5" fill="none"/>
+  <rect x="0" y="0" width="200" height="200" stroke="gray" stroke-width="2.5" stroke-dasharray="2.5,2.5" fill="none"/>
   <circle cx="100" cy="100" r="50" />
 </svg>
 </figure>
