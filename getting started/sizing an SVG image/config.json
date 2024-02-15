@@ -3,8 +3,8 @@
   "type": "content",
   "description": {
     "names": {
-      "en": "Sizing an SVG",
-      "nl": "Afmetingen van een SVG"
+      "en": "Sizing an SVG image",
+      "nl": "Afmetingen van een SVG-afbeelding"
     }
   },
   "labels": [
