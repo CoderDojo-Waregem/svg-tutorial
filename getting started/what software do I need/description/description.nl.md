@@ -1,0 +1,17 @@
+Een SVG-bestand is een tekstbestand. Je hebt enkel een teksteditor nodig om de tekst op te stellen voor de SVG-afbeelding. De afspraak is dat je een tekstbestand met een SVG-afbeelding opslaat met de extensie `.svg`. Wanneer je dubbelklikt op een bestand met een `.svg` extensie, dan krijg je de afbeelding in een browser te zien.
+
+Wij zullen gebruikmaken van de online teksteditor [StackBlitz](https://stackblitz.com/fork/web-platform){: target="_blank"}. Daarmee hoef je helemaal geen editor te installeren op je computer, en krijg je bij elke aanpassing meteen ook het resultaat van de afbeelding te zien.
+
+<div class="dodona-centered-group">
+  <img src="media/stackblitz.png" />
+</div>
+
+Daar kan je de tekst voor de SVG-afbeelding rechtstreeks in het bestand `index.html` plaatsen. Het is ook niet nodig om HTML-code schrijven. Je kunt je enkel tot de SVG-afbeelding beperken.
+
+```svg
+<svg width="100" height="100" viewBox="0 0 100 100">
+  <cirkel cx="50" cy="50" r="25" fill="red" />
+</svg>
+```
+
+Als je een mooie SVG-afbeelding gemaakt hebt, vergeet die dan ook niet  op je computer op te slaan in een tekstbestand met de extensie `.svg`!
