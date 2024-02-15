@@ -14,7 +14,7 @@ We can assign CSS classes to each element and move some attributes to CSS. We ca
 ```
 
 <figure>
-<svg class="gingerbread1" width="200" height="200" viewBox="-100 -100 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread1" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
     gingerbread1 .head {
       fill: #cd803d;
@@ -45,7 +45,7 @@ To give you a comparison if we remove the line cap and set a smaller `stroke-wid
 ```
 
 <figure>
-<svg class="gingerbread2" width="200" height="200" viewBox="-100 -100 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread2" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
     gingerbread2 .limb {
       stroke: #cd803d;
@@ -76,7 +76,7 @@ But by setting a thick stroke width and a round line cap we can shape legs and a
 ```
 
 <figure>
-<svg class="gingerbread3" width="200" height="200" viewBox="-100 -100 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread3" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
     gingerbread3 .limb {
       stroke: #cd803d;
@@ -113,7 +113,7 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 ```
 
 <figure>
-<svg class="gingerbread4" width="200" height="200" viewBox="-100 -100 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread4" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
     gingerbread4 .head {
       fill: #cd803d;
@@ -167,7 +167,7 @@ Once we put it all together, and add eyes and buttons, this is how the final cod
 ```
 
 <figure>
-<svg class="gingerbread" width="200" height="200" viewBox="-100 -100 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" class="gingerbread" width="200" height="200" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
