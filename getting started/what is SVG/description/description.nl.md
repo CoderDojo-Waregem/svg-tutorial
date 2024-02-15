@@ -1,6 +1,6 @@
 [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG){: target="_blank"} (*Scalable Vector Graphics*) heeft een grammatica die heel sterk lijkt op HTML. Ze zijn beide gebaseerd op XML. Sinds [HTML5](https://en.wikipedia.org/wiki/HTML5){: target="_blank"} kunnen we de code van een SVG-afbeelding ook gewoon in een HTML-bestand plaatsen:
 
-```svg
+```html
 <html>
   <h1>Dag ninja</h1>
   <svg width="100" height="100" viewBox="0 0 100 100">

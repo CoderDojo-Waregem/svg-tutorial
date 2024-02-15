@@ -1,6 +1,6 @@
 [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG){: target="_blank"} (Scalable Vector Graphics) has a similar syntax as HTML. They are both based on XML. Since [HTML5](https://en.wikipedia.org/wiki/HTML5){: target="_blank"} we can simply inline the code of an SVG image inside an HTML file like below.
 
-```svg
+```html
 <html>
   <h1>Hi there</h1>
   <svg width="100" height="100" viewBox="0 0 100 100">
