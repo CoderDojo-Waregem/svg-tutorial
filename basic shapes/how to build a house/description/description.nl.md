@@ -1,6 +1,6 @@
 In dit voorbeeld combineren we alles wat we tot nu toe hebben geleerd. We gebruiken hier cirkels, rechthoeken, lijnen, `polyline` en veelhoeken.
 
-We beginnen met de voorkant zelf. Merk op dat we niet alleen een klasse hebben voor het muurelement, maar ook voor de hele SVG.
+We beginnen met de voorkant zelf. Merk op dat we niet alleen een klasse hebben voor het gevel-element, maar ook voor de hele SVG.
 
 ```html
 <svg class="huis" width="200" height="200" viewBox="-100 -100 200 200">
@@ -11,7 +11,7 @@ We beginnen met de voorkant zelf. Merk op dat we niet alleen een klasse hebben v
       fill: white;
     }
   </style>
-  <polygon class="wall" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
+  <polygon class="gevel" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
 </svg>
 ```
 
@@ -29,7 +29,7 @@ We beginnen met de voorkant zelf. Merk op dat we niet alleen een klasse hebben v
     }
   </style>
   <rect class="achtergrond" x="-100" y="-100" width="200" height="200" />
-  <polygon class="wall" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
+  <polygon class="gevel" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
 </svg>
 </figure>
 
@@ -44,7 +44,7 @@ Daarna voegen we er een dak bovenop. Dit is het enige dat hier nieuw is. We gebr
       fill: white;
     }
   </style>
-  <polygon class="wall" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
+  <polygon class="gevel" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
 </svg>
 ```
 <figure>
@@ -100,10 +100,10 @@ Daarna blijven we eenvoudige elementen toevoegen voor de deur, de ramen en de tr
       fill: #F5F1EB;
     }
   </style>
-  <polygon class="wall" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
+  <polygon class="gevel" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
   <polyline class="dak" points="-75,-8 0,-78 75,-8" />
   <rect class="deur" x="-45" y="10" width="30" height="60" rx="2" />
-  <circle class="deur-knob" cx="-35" cy="40" r="2" />
+  <circle class="deurknop" cx="-35" cy="40" r="2" />
   <rect class="trap" x="-47" y="70" width="34" height="5" />
   <rect class="trap" x="-49" y="75" width="38" height="5" />
   <rect class="venster" x="5" y="15" width="40" height="35" rx="5" />
@@ -148,10 +148,10 @@ Daarna blijven we eenvoudige elementen toevoegen voor de deur, de ramen en de tr
     }
   </style>
   <rect class="achtergrond" x="-100" y="-100" width="200" height="200" />
-  <polygon class="wall" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
+  <polygon class="gevel" points="-65,80 -65,-10 0,-70 65,-10 65,80" />
   <polyline class="dak" points="-75,-8 0,-78 75,-8" />
   <rect class="deur" x="-45" y="10" width="30" height="60" rx="2" />
-  <circle class="deur-knob" cx="-35" cy="40" r="2" />
+  <circle class="deurknop" cx="-35" cy="40" r="2" />
   <rect class="trap" x="-47" y="70" width="34" height="5" />
   <rect class="trap" x="-49" y="75" width="38" height="5" />
   <rect class="venster" x="5" y="15" width="40" height="35" rx="5" />
