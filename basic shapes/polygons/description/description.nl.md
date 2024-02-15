@@ -1,8 +1,8 @@
-Let’s start with a simple Christmas ornament. Here we only use simple shapes, a rectangle, and two circles. Note, that the origin of the coordinate system is in the center of the image.
+Laten we beginnen met een eenvoudige kerstbal. Hiervoor gebruiken we alleen eenvoudige vormen: een rechthoek en twee cirkels. Merk op dat de oorsprong van het coördinatenstelsel in het midden van de afbeelding ligt.
 
-First, we define the main part of the Christmas ornament, by drawing a `circle`. To draw a circle we set their center position (`cx` and `cy`) and the radius with the `r` property.
+Eerst definiëren we het belangrijkste deel van de kerstbal door een `circle` te tekenen. Om een cirkel te tekenen stellen we het middelpunt in (`cx` en `cy`) en de straal met de `r` eigenschap.
 
-We also have presentational attributes that style our shapes. Similar to the `background-color` property in CSS, we set the color for the shape with the `fill` attribute.
+We hebben ook presentatie-attributen die onze vormen een stijl geven. Vergelijkbaar met de `background-color` eigenschap in CSS, stellen we de kleur voor de vorm in met het `fill` attribuut.
 
 ```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
@@ -17,7 +17,7 @@ We also have presentational attributes that style our shapes. Similar to the `ba
 </svg>
 </figure>
 
-Then we draw a rectangle as a little cap on top of the Christmas ornament with the `rect` element. In this case, we have to set the top-left position of the rectangle and its size. We use the `fill` attribute the same way as we did with the circle.
+Vervolgens tekenen we een rechthoek als een klein kapje bovenop de kerstbal met het `rect` element. In dit geval moeten we de positie linksboven van de rechthoek en de grootte instellen. We gebruiken het `fill` attribuut op dezelfde manier als bij de cirkel.
 
 ```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
@@ -34,9 +34,9 @@ Then we draw a rectangle as a little cap on top of the Christmas ornament with t
 </svg>
 </figure>
 
-Finally, we add another circle as a hanger on top of these. Note that we use the same `circle` element, but with different attributes. We set the fill property to `"none"` and set a border for the shape with the `stroke` and `stroke-width` properties.
+Tot slot voegen we nog een cirkel toe als hanger bovenop deze elementen. Merk op dat we hetzelfde `circle` element gebruiken, maar met verschillende attributen. We stellen de eigenschap `fill` in op `"none"` en stellen een rand in voor de vorm met de eigenschappen `stroke` en `stroke-width`.
 
-The final code of the image is as follows:
+Dit is dan de uiteindelijke code van de afbeelding:
 
 ```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
