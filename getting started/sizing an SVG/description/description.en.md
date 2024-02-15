@@ -50,4 +50,17 @@ We can also set what coordinate should be in the top-left corner of the image. I
 
 Note that now the center position of the circle is `0,0`.
 
+```svg
+<svg width="200" height="200" viewBox="-100 -100 200 200">
+  <circle cx="0" cy="0" r="50" />
+</svg>
+```
+
+<figure>
+<svg width="200" height="200" viewBox="-100 -100 200 200">
+  <rect x="-100" y="-100" width="200" height="200" stroke="gray" stroke-width="2" stroke-dasharray="2,2" fill="none"/>
+  <circle cx="0" cy="0" r="50" />
+</svg>
+</figure>
+
 SVGs often have an `xmlns` property as well. This, however – if the image is inlined in HTML – can be omitted.
