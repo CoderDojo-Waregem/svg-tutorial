@@ -1,3 +1,38 @@
+Het zal je misschien verbazen hoe eenvoudig het is om dit peperkoeken mannetje te tekenen op basis van een aantal lijnen. We leren ook hoe je de uiteinden van lijnen en de hoekpunten van rechthoeken kunt afronden.
+
+<figure>
+<svg width="200" height="200" viewBox="-100 -100 200 200">
+  <style>
+    .hoofd {
+      fill: #cd803d;
+    }
+    .oog {
+      fill: white;
+    }
+    .mond {
+      fill: none;
+      stroke: white;
+      stroke-width: 2px;
+    }
+    .ledemaat {
+      stroke: #cd803d;
+      stroke-width: 35px;
+      stroke-linecap: round;
+    }
+  </style>
+  <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
+  <circle class="hoofd" cx="0" cy="-50" r="30" />
+  <circle class="oog" cx="-12" cy="-55" r="3" />
+  <circle class="oog" cx="12" cy="-55" r="3" />
+  <rect class="mond" x="-10" y="-40" width="20" height="5" rx="2" />
+  <line class="ledemaat" x1="-40" y1="-10" x2="40" y2="-10" />
+  <line class="ledemaat" x1="-25" y1="50" x2="0" y2="-15" />
+  <line class="ledemaat" x1="25" y1="50" x2="0" y2="-15" />
+  <circle class="knoop" cx="0" cy="-10" r="5" />
+  <circle class="knoop" cx="0" cy="10" r="5" />
+</svg>
+</figure>
+
 ## Stijleigenschappen verplaatsen naar CSS
 
 We kunnen CSS-klassen toewijzen aan elk element en sommige attributen verplaatsen naar CSS. We kunnen echter alleen de presentatie-attributen verplaatsen. Positieattributen en attributen die de vormen definiëren moeten in de SVG-tags blijven. Maar attributen voor kleuren, lijnen en lettertypes kunnen naar CSS verplaatst worden.
@@ -132,7 +167,7 @@ Let ook op de `rx` eigenschap bij de rechthoek die de mond definieert. Hierdoor 
 </svg>
 </figure>
 
-## Peperkoekfiguur
+## Peperkoeken mannetje
 
 Zodra we alles hebben samengevoegd en ogen en knoppen hebben toegevoegd, ziet de uiteindelijke code er zo uit:
 

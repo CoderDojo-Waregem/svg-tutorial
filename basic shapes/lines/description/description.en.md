@@ -1,3 +1,38 @@
+You may be surprised at how easy it is to draw this gingerbread man based on a few lines. We also learn how to round the ends of lines and the vertices of rectangles.
+
+<figure>
+<svg width="200" height="200" viewBox="-100 -100 200 200">
+  <style>
+    .head {
+      fill: #cd803d;
+    }
+    .eye {
+      fill: white;
+    }
+    .mouth {
+      fill: none;
+      stroke: white;
+      stroke-width: 2px;
+    }
+    .limb {
+      stroke: #cd803d;
+      stroke-width: 35px;
+      stroke-linecap: round;
+    }
+  </style>
+  <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
+  <circle class="head" cx="0" cy="-50" r="30" />
+  <circle class="eye" cx="-12" cy="-55" r="3" />
+  <circle class="eye" cx="12" cy="-55" r="3" />
+  <rect class="mouth" x="-10" y="-40" width="20" height="5" rx="2" />
+  <line class="limb" x1="-40" y1="-10" x2="40" y2="-10" />
+  <line class="limb" x1="-25" y1="50" x2="0" y2="-15" />
+  <line class="limb" x1="25" y1="50" x2="0" y2="-15" />
+  <circle class="button" cx="0" cy="-10" r="5" />
+  <circle class="button" cx="0" cy="10" r="5" />
+</svg>
+</figure>
+
 ## Moving styling properties to CSS
 
 We can assign CSS classes to each element and move some attributes to CSS. We can only move the presentation attributes though. Position attributes and attributes that define the shapes have to stay in the SVG-tags. But colors, stroke, and font attributes can be moved to CSS.
@@ -132,7 +167,7 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 </svg>
 </figure>
 
-## Gingerbread figure
+## Gingerbread man
 
 Once we put it all together, and add eyes and buttons, this is how the final code looks like:
 
