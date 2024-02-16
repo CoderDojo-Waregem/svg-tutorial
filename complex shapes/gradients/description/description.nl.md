@@ -6,7 +6,7 @@ The filling of a shape can be defined as a gradient. We add a subtle 3D effect t
   <defs>
     <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
-      <stop offset="5%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
@@ -101,7 +101,7 @@ For the snowman we draw two circles with a similar gradient as follows.
   <defs>
     <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
-      <stop offset="5%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
@@ -116,7 +116,7 @@ For the snowman we draw two circles with a similar gradient as follows.
   <defs>
     <radialGradient id="snowball1" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
-      <stop offset="5%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
@@ -133,7 +133,7 @@ Then we add a polygon for the nose, two circles for the eyes, and two lines for 
   <defs>
     <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
-      <stop offset="5%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
@@ -156,7 +156,7 @@ Then we add a polygon for the nose, two circles for the eyes, and two lines for 
   <defs>
     <radialGradient id="snowball2" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
-      <stop offset="5%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
