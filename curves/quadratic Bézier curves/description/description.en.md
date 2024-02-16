@@ -1,8 +1,8 @@
 All paths we have drawn so far consisted of straight lines. Let's draw this curved Christmas tree.
 
 <figure>
-<svg width="200px" height="400px" viewBox="-100 -200 200 400">
-  <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
+<svg width="200px" height="250px" viewBox="-100 -100 200 250">
+  <rect x="-100" y="-100" width="200" height="250" fill="#F5F1EB"/>
   <path fill="none" stroke="black" stroke-width="1" d="
       M0,-80
       L5,-75      L0,-70
@@ -72,7 +72,7 @@ Click here for [an interactive demo](https://hunormarton.github.io/svg-curves){:
 To draw our curved Christmas tree, we have a series of quadratic Béziers where the control points get further and further away from the center of the tree as the path goes down.
 
 ```html
-<svg width="200px" height="400px" viewBox="-100 -200 200 400">
+<svg width="200px" height="250px" viewBox="-100 -100 200 250">
   <path fill="none" stroke="#0C5C4C" stroke-width="5" d="
       M0,-80
       Q5,-75,0,-70
@@ -100,8 +100,8 @@ To draw our curved Christmas tree, we have a series of quadratic Béziers where 
 ```
 
 <figure>
-<svg width="200px" height="400px" viewBox="-100 -200 200 400">
-  <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
+<svg width="200px" height="250px" viewBox="-100 -100 200 250">
+  <rect x="-100" y="-100" width="200" height="250" fill="#F5F1EB"/>
   <path fill="none" stroke="#0C5C4C" stroke-width="5" d="
       M0,-80
       Q5,-75,0,-70
@@ -131,7 +131,7 @@ To draw our curved Christmas tree, we have a series of quadratic Béziers where 
 If we break down each quadratic bézier above into two line segments with the same coordinates, that would look like this:
 
 ```html
-<svg width="200px" height="400px" viewBox="-100 -200 200 400">
+<svg width="200px" height="250px" viewBox="-100 -100 200 250">
   <path fill="none" stroke="black" stroke-width="1" d="
       M0,-80
       L5,-75      L0,-70
@@ -159,8 +159,8 @@ If we break down each quadratic bézier above into two line segments with the sa
 ```
 
 <figure>
-<svg width="200px" height="400px" viewBox="-100 -200 200 400">
-  <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
+<svg width="200px" height="250px" viewBox="-100 -100 200 250">
+  <rect x="-100" y="-100" width="200" height="250" fill="#F5F1EB"/>
   <path fill="none" stroke="black" stroke-width="1" d="
       M0,-80
       L5,-75      L0,-70
