@@ -1,4 +1,4 @@
-Once we covered basic shapes, it's time to move on to the `path` element. The path is the most powerful SVG element. We can define pretty much anything with paths and if you open any SVG file, you will mostly see paths. Let's draw this arrow using a single path.
+Nadat we de basisvormen hebben behandeld, is het tijd om verder te gaan met het `path` element. Het pad is het krachtigste SVG-element. We kunnen bijna alles definiëren met paden en als je een SVG-bestand opent, zie je meestal paden. Laten we deze pijl tekenen met één enkel pad.
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -8,13 +8,13 @@ Once we covered basic shapes, it's time to move on to the `path` element. The pa
 </svg>
 </figure>
 
-The shape of a path is defined by the `d` attribute. Here we define several drawing commands. A command always starts with a letter defining the command type and ends with a coordinate.
+De vorm van een pad wordt gedefinieerd door het `d` attribuut. Daarin definiëren we verschillende tekencommando's. Een commando begint altijd met een letter die het type commando definieert en eindigt met een coördinaat.
 
-Here we only have the two most basic commands, move-to and line-to. The move-to command moves the cursor to a point without drawing a line and the line-to command draws a straight line from the previous point. A command always continues the previous command. When we draw a line we only define the endpoint. The starting point will be the previous command’s endpoint.
+Hier hebben we alleen de twee meest eenvoudige commando's nodig: ga-naar (*move-to*) en lijn-naar (*line-to*). Het ga-naar commando verplaatst de cursor naar een punt zonder een lijn te tekenen en het lijn-naar commando tekent een rechte lijn vanaf het vorige punt. Een commando gaat altijd verder met het vorige commando. Als we een lijn tekenen, bepalen we alleen het eindpunt. Het beginpunt is het eindpunt van het vorige commando.
 
-### Hamburger menu icon
+### Pictogram voor een hamburger-menu
 
-Before we get to the arrow example, let’s draw a simple hamburger menu icon. We draw three lines within the same path with the move-to (`M`) and line-to (`L`) commands. First, we move to the start of the top line (`M -40, -40`) and draw a line to its end (`L 40, -40`).
+Voor we naar het voorbeeld van de pijl gaan, laat ons eerst een eenvoudig pictogram voor een hamburger-menu tekenen. We tekenen drie lijnen binnen hetzelfde pad met de commando's ga-naar (`M`) en lijn-naar (`L`). Eerst gaan we naar het begin van de bovenste lijn (`M40,-40`) en tekenen we een lijn naar het einde (`L40,-40`).
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -29,7 +29,7 @@ Before we get to the arrow example, let’s draw a simple hamburger menu icon. W
 </svg>
 </figure>
 
-Then we continue and draw to more lines the same way. What is cool about paths, is that they don't have to be continuous. We can have several move-to commands within the same path. The commas between the X and Y coordinates are optional. We skip them this time.
+Daarna gaan we verder en tekenen we nog meer lijnen op dezelfde manier. Het coole aan paden is dat ze niet doorlopend hoeven te zijn. We kunnen verschillende ga-naar commando's hebben binnen hetzelfde pad. De komma's tussen de $$x$$- en $$y$$-coördinaten zijn optioneel en kunnen ook vervangen worden door spaties. Ook de spatie tussen het commando en de eerste coördinaat mag weggelaten worden.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -46,9 +46,9 @@ Then we continue and draw to more lines the same way. What is cool about paths, 
 </svg>
 </figure>
 
-### Heart shape icon
+### Hartvormig pictogram
 
-Here's another example made with a move to command and two line to commands.
+Hier is nog een voorbeeld gemaakt met een ga-naar commando en twee lijn-naar commando's.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -65,7 +65,7 @@ Here's another example made with a move to command and two line to commands.
 </svg>
 </figure>
 
-In the example above if we reduce the value of the `stroke-width` property, then we realize that the code above is actually a simple V shape.
+Als we in bovenstaand voorbeeld de waarde van de `stroke-width` eigenschap verlagen, dan zien we dat deze code eigenlijk een eenvoudige V-vorm is.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -82,9 +82,9 @@ In the example above if we reduce the value of the `stroke-width` property, then
 </svg>
 </figure>
 
-### Heart shape icon
+### Pijlvormig pictogram
 
-We can draw an arrow in a very similar way. We start with a line in the middle, then we continue the line to draw the upper wing.
+We kunnen op een vergelijkbare manier een pijl tekenen. We beginnen met een lijn in het midden en vervolgen de lijn om de bovenste vleugel te tekenen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -101,7 +101,7 @@ We can draw an arrow in a very similar way. We start with a line in the middle, 
 </svg>
 </figure>
 
-You might note that with the previous example, we also had a `stroke-linejoin` property to make the join rounded. It works in a similar way to `stroke-linecap` but that only affects the end of the lines. Without that property, the same line would look as follows.
+Je zou kunnen opmerken dat we in het vorige voorbeeld ook een `stroke-linejoin` eigenschap hadden om de samenvoeging af te ronden. Het werkt op een vergelijkbare manier als `stroke-linecap` maar dat heeft alleen invloed op het einde van de lijnen. Zonder die eigenschap zou dezelfde lijn er als volgt uitzien.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -118,7 +118,7 @@ You might note that with the previous example, we also had a `stroke-linejoin` p
 </svg>
 </figure>
 
-Then we can finish the line with moving to the end of the horizontal line again, and drawing a straight line downwards to draw the lower wing of the arrow. You might notice that at the bottom of this and other pages in the navigation button we include a similar SVG.
+Dan kunnen we de lijn afmaken door weer naar het einde van de horizontale lijn te gaan en een rechte lijn naar beneden te trekken om de onderste vleugel van de pijl te tekenen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">

@@ -14,7 +14,7 @@ Here we only have the two most basic commands, move-to and line-to. The move-to 
 
 ### Hamburger menu icon
 
-Before we get to the arrow example, let’s draw a simple hamburger menu icon. We draw three lines within the same path with the move-to (`M`) and line-to (`L`) commands. First, we move to the start of the top line (`M -40, -40`) and draw a line to its end (`L 40, -40`).
+Before we get to the arrow example, let’s draw a simple hamburger menu icon. We draw three lines within the same path with the move-to (`M`) and line-to (`L`) commands. First, we move to the start of the top line (`M-40,-40`) and draw a line to its end (`L40,-40`).
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -29,7 +29,7 @@ Before we get to the arrow example, let’s draw a simple hamburger menu icon. W
 </svg>
 </figure>
 
-Then we continue and draw to more lines the same way. What is cool about paths, is that they don't have to be continuous. We can have several move-to commands within the same path. The commas between the X and Y coordinates are optional. We skip them this time.
+Then we continue and draw to more lines the same way. What is cool about paths, is that they don't have to be continuous. We can have several move-to commands within the same path. The commas between the $$x$$ and $$y$$ coordinates are optional. We can also skip the space between the command and the first coordinate.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -82,7 +82,7 @@ In the example above if we reduce the value of the `stroke-width` property, then
 </svg>
 </figure>
 
-### Heart shape icon
+### Arrow icon
 
 We can draw an arrow in a very similar way. We start with a line in the middle, then we continue the line to draw the upper wing.
 
@@ -118,7 +118,7 @@ You might note that with the previous example, we also had a `stroke-linejoin` p
 </svg>
 </figure>
 
-Then we can finish the line with moving to the end of the horizontal line again, and drawing a straight line downwards to draw the lower wing of the arrow. You might notice that at the bottom of this and other pages in the navigation button we include a similar SVG.
+Then we can finish the line with moving to the end of the horizontal line again, and drawing a straight line downwards to draw the lower wing of the arrow.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
