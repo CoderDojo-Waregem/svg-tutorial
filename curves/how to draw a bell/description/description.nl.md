@@ -1,4 +1,4 @@
-Let’s have another example with cubic and quadratic beziers.
+Laten we nog een voorbeeld tekenen met kubische en kwadratische Bézierkrommen.
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -19,7 +19,7 @@ Let’s have another example with cubic and quadratic beziers.
 </svg>
 </figure>
 
-Here the bottom of this bell is defined with straight lines.
+De onderkant van deze klok wordt gedefinieerd met rechte lijnen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -44,7 +44,7 @@ Here the bottom of this bell is defined with straight lines.
 </svg>
 </figure>
 
-Then a quadratic Béziers starts the bell cloak.
+Dan begint een kwadratische Bézier de klokmantel.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -72,7 +72,7 @@ Then a quadratic Béziers starts the bell cloak.
 </svg>
 </figure>
 
-Then the line is continued with a cubic Bézier to form the top of the bell.
+Daarna wordt de lijn voortgezet met een kubische Bézier om de top van de bel te vormen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -103,7 +103,7 @@ Then the line is continued with a cubic Bézier to form the top of the bell.
 </svg>
 </figure>
 
-Then we reach the bottom part with another quadratic bezier that mirrors the previous one.
+Dan bereiken we het onderste deel met nog een kwadratische Bézier die het spiegelbeeld vormt van de vorige.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -136,8 +136,7 @@ Then we reach the bottom part with another quadratic bezier that mirrors the pre
 </figure>
 
 
-We finish the bell, by adding two circles for the bell-clapper, and the hanger.
-
+We maken de klok af door twee cirkels toe te voegen voor de klepel en de hanger.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
