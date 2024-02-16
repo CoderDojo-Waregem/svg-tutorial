@@ -144,7 +144,7 @@ Dit tekent een cirkel (hieronder weergegeven met een dikke zwarte rand) met midd
 
 ### Afmetingen en kijkvenster van het SVG-element
 
-Het SVG-element bevat alle afbeeldingselementen, maar het definieert ook de afmetingen en het kijkvenster van de afbeelding. Het stelt de interne en de externe maten van de afbeelding in.
+Het SVG-element bevat alle afbeeldingselementen, maar het definieert ook de afmetingen en het kijkvenster van de afbeelding. Het stelt de externe en de interne maten van de afbeelding in.
 
 De eigenschappen `width` (breedte) en `height` (hoogte) bepalen hoeveel ruimte de afbeelding inneemt in de browser. Dit zijn de externe maten. De grootte die wordt gedefinieerd door `width` en `height` is hoe de rest van HTML denkt over de SVG-afbeelding en hoe groot deze wordt weergegeven in de browser.
 
