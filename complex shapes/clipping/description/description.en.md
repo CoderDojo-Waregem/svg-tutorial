@@ -43,7 +43,7 @@ Here we define a `clipPath` with an ID. The content of this clip-path is a circl
   </defs>
 
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
-  <polyline fill="none" stroke="#9C2D2A" stroke-width="20"
+  <polyline clip-path="url(#ball)" fill="none" stroke="#9C2D2A" stroke-width="20"
     points="-120 40 -80 0 -40 40 0 0 40 40 80 0 120 40" />
   <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
@@ -60,7 +60,7 @@ Here we define a `clipPath` with an ID. The content of this clip-path is a circl
 
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
-  <polyline fill="none" stroke="#9C2D2A" stroke-width="20"
+  <polyline clip-path="url(#ball)"  fill="none" stroke="#9C2D2A" stroke-width="20"
     points="-120 40 -80 0 -40 40 0 0 40 40 80 0 120 40" />
   <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
