@@ -33,7 +33,7 @@ You may be surprised at how easy it is to draw this gingerbread man based on a f
 </svg>
 </figure>
 
-## Moving styling properties to CSS
+### Moving styling properties to CSS
 
 We can assign CSS classes to each element and move some attributes to CSS. We can only move the presentation attributes though. Position attributes and attributes that define the shapes have to stay in the SVG-tags. But colors, stroke, and font attributes can be moved to CSS.
 
@@ -60,7 +60,7 @@ We can assign CSS classes to each element and move some attributes to CSS. We ca
 </svg>
 </figure>
 
-## Rounded lines
+### Rounded lines
 
 We already saw the `fill` and some `stroke` properties, but here’s another styling property. The `stroke-linecap`. This can make our line cap rounded. Note that the legs and the arms are simple lines here.
 
@@ -128,7 +128,7 @@ But by setting a thick stroke width and a round line cap we can shape legs and a
 </svg>
 </figure>
 
-## Rounded rectangles
+### Rounded rectangles
 
 Also, note the `rx` property at the rectangle defining the mouth. This will make the edges rounded. It is similar to the `border-radius` property for regular HTML elements.
 
@@ -167,7 +167,7 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 </svg>
 </figure>
 
-## Gingerbread man
+### Gingerbread man
 
 Once we put it all together, and add eyes and buttons, this is how the final code looks like:
 

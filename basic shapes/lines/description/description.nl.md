@@ -33,7 +33,7 @@ Het zal je misschien verbazen hoe eenvoudig het is om dit peperkoeken mannetje t
 </svg>
 </figure>
 
-## Stijleigenschappen verplaatsen naar CSS
+### Stijleigenschappen verplaatsen naar CSS
 
 We kunnen CSS-klassen toewijzen aan elk element en sommige attributen verplaatsen naar CSS. We kunnen echter alleen de presentatie-attributen verplaatsen. Positieattributen en attributen die de vormen definiëren moeten in de SVG-tags blijven. Maar attributen voor kleuren, lijnen en lettertypes kunnen naar CSS verplaatst worden.
 
@@ -60,7 +60,7 @@ We kunnen CSS-klassen toewijzen aan elk element en sommige attributen verplaatse
 </svg>
 </figure>
 
-## Afgeronde lijnen
+### Afgeronde lijnen
 
 We zagen al de `fill` en enkele `stroke` eigenschappen, maar hier is nog een presentatie-eigenschap. De `stroke-linecap`. Hiermee kunnen we het uiteinde van onze lijnen afronden. Merk op dat de benen en armen gewoon als lijnen getekend worden.
 
@@ -128,7 +128,7 @@ Maar door een dikke lijnbreedte en een rond uiteinde in te stellen, kunnen we be
 </svg>
 </figure>
 
-## Afgeronde rechthoeken
+### Afgeronde rechthoeken
 
 Let ook op de `rx` eigenschap bij de rechthoek die de mond definieert. Hierdoor worden de randen afgerond. Het is vergelijkbaar met de `border-radius` eigenschap voor gewone HTML-elementen.
 
@@ -167,7 +167,7 @@ Let ook op de `rx` eigenschap bij de rechthoek die de mond definieert. Hierdoor 
 </svg>
 </figure>
 
-## Peperkoeken mannetje
+### Peperkoeken mannetje
 
 Zodra we alles hebben samengevoegd en ogen en knoppen hebben toegevoegd, ziet de uiteindelijke code er zo uit:
 
