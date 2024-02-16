@@ -1,4 +1,4 @@
-This ornament is the same as we drew on the first day, except it has a motif on its side defined as a polyline.
+This ornament is the same as we drew on the first day, except it has a motif on its side defined as a `polyline`.
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -17,7 +17,7 @@ This ornament is the same as we drew on the first day, except it has a motif on 
 </svg>
 </figure>
 
-By default, the polyline wouldn't match the edge of the circle shape. Without **clipping** this motif would look like this:
+By default, the `polyline` wouldn't match the edge of the `circle` shape. Without **clipping** this motif would look like this:
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -30,9 +30,9 @@ By default, the polyline wouldn't match the edge of the circle shape. Without **
 </svg>
 </figure>
 
-We use clip-path here to make sure that the motif fits perfectly on the ornament. The clip-path is defined in the definitions section.
+We use `clip-path` here to make sure that the motif fits perfectly on the ornament. The `clip-path` is defined in the definitions section.
 
-Here we define a `clipPath` with an ID. The content of this clip-path is a circle that matches the size of our ornament. Then we use it to clip the polyline, by setting its `clip-path` property.
+Here we define a `clipPath` with an ID. The content of this `clip-path` is a `circle` that matches the size of our ornament. Then we use it to clip the `polyline`, by setting its `clip-path` property.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
