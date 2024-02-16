@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Quadratic Bézier curves",
+      "nl": "Kwadratische Bézierkrommen"
+    }
+  },
+  "labels": [
+
+  ]
+}
