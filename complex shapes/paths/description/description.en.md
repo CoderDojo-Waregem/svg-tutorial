@@ -4,7 +4,7 @@ Once we covered basic shapes, it's time to move on to the `path` element. The pa
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <path d="M-70,0 L70,0 L30,-50 M70,0 L30,50" 
-    fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" />
+    fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
 </figure>
 
@@ -106,7 +106,7 @@ You might note that with the previous example, we also had a `stroke-linejoin` p
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <path d="M-70,0 L70,0 L30,-50" 
-    fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+    fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" />
 </svg>
 ```
 
@@ -122,7 +122,7 @@ Then we can finish the line with moving to the end of the horizontal line again,
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
-  <path d="M-70,0 L70,0 L30,-50" 
+  <path d="M-70,0 L70,0 L30,-50 M70,0 L30,50" 
     fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
 ```
@@ -131,6 +131,6 @@ Then we can finish the line with moving to the end of the horizontal line again,
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <path d="M-70,0 L70,0 L30,-50 M70,0 L30,50" 
-    fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" />
+    fill="none" stroke="#D1495B" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
 </figure>
