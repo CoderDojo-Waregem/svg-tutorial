@@ -1,17 +1,17 @@
-The filling of a shape can be defined as a gradient. We add a subtle 3D effect to our Christmas decoration and build a snowman.
+De opvulling van een vorm kan worden gedefinieerd als een kleurovergang. We voegen een subtiel 3D-effect toe aan onze kerstbal en bouwen een sneeuwpop.
 
 <figure>
 <svg width="200px" height="250px" viewBox="-100 -100 200 250" style="background-color: lightblue">
   <defs>
-    <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
+    <radialGradient id="sneeuwbal" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
       <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
 
-  <circle cx="0" cy="60" r="80" fill="url(#snowball)" />
-  <circle cx="0" cy="-40" r="50" fill="url(#snowball)" />
+  <circle cx="0" cy="60" r="80" fill="url(#sneeuwbal)" />
+  <circle cx="0" cy="-40" r="50" fill="url(#sneeuwbal)" />
   <polygon points="10,-46 50,-40 10,-34" fill="#e66465" />
 
   <circle cx="0" cy="-55" r="5" />
@@ -22,9 +22,9 @@ The filling of a shape can be defined as a gradient. We add a subtle 3D effect t
 </svg>
 </figure>
 
-### Upgrade the Christmas Ornament
+### Een gepimpte kerstbal
 
-Let’s upgrade the Christmas Ornament we created before.
+Laat ons de kerstbal die we eerder gemaakt hebben een beetje pimpen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -55,9 +55,9 @@ Let’s upgrade the Christmas Ornament we created before.
 </svg>
 </figure>
 
-We can add a subtle 3D effect by filling the main circle with a gradient. Here we define a `radialGradient` in the `defs` section. It has a different syntax than CSS, but the capabilities are rather similar.
+We kunnen een subtiel 3D-effect toevoegen door de hoofdcirkel op te vullen met een kleurovergang. Hiervoor definiëren we een `radialGradient` in de `defs` sectie. Dit heeft een andere syntax dan bij CSS, maar de mogelijkheden zijn vergelijkbaar.
 
-We define its ID, center position with `cx` and `cy`, set its radius, and the stop colors. Then we can use it as an attribute for the `fill` property of a shape.
+We definiëren zijn ID, positioneren het middelpunt met `cx` en `cy`, stellen zijn straal in en de stopkleuren. Dan kunnen we het gebruiken als attribuut voor de `fill` eigenschap van een vorm.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -90,53 +90,53 @@ We define its ID, center position with `cx` and `cy`, set its radius, and the st
 </svg>
 </figure>
 
-### Building a Snowman
+### Een sneeuwpop bouwen
 
-For the snowman we draw two circles with a similar gradient as follows.
+Voor de sneeuwpop tekenen we als volgt twee cirkels met een vergelijkbare kleurovergang.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200" style="background-color: lightblue">
   <defs>
-    <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
+    <radialGradient id="sneeuwbal" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
       <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
 
-  <circle cx="0" cy="0" r="80" fill="url(#snowball)" />
+  <circle cx="0" cy="0" r="80" fill="url(#sneeuwbal)" />
 </svg>
 ```
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200" style="background-color: lightblue">
   <defs>
-    <radialGradient id="snowball1" cx="0.25" cy="0.25" r="1">
+    <radialGradient id="sneeuwbal1" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
       <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
 
-  <circle cx="0" cy="0" r="80" fill="url(#snowball1)" />
+  <circle cx="0" cy="0" r="80" fill="url(#sneeuwbal1)" />
 </svg>
 </figure>
 
-Then we add a polygon for the nose, two circles for the eyes, and two lines for the arm. Simple.
+Dan voegen we een veelhoek toe voor de neus, twee cirkels voor de ogen en twee lijnen voor de arm. Eenvoudig.
 
 ```html
 <svg width="200px" height="250px" viewBox="-100 -100 200 250" 
   style="background-color: lightblue">
   <defs>
-    <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
+    <radialGradient id="sneeuwbal" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
       <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
 
-  <circle cx="0" cy="60" r="80" fill="url(#snowball)" />
-  <circle cx="0" cy="-40" r="50" fill="url(#snowball)" />
+  <circle cx="0" cy="60" r="80" fill="url(#sneeuwbal)" />
+  <circle cx="0" cy="-40" r="50" fill="url(#sneeuwbal)" />
   <polygon points="10,-46 50,-40 10,-34" fill="#e66465" />
 
   <circle cx="0" cy="-55" r="5" />
@@ -151,15 +151,15 @@ Then we add a polygon for the nose, two circles for the eyes, and two lines for 
 <svg width="200px" height="250px" viewBox="-100 -100 200 250" 
   style="background-color: lightblue">
   <defs>
-    <radialGradient id="snowball2" cx="0.25" cy="0.25" r="1">
+    <radialGradient id="sneeuwbal2" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
       <stop offset="50%" stop-color="white" />
       <stop offset="100%" stop-color="#d6d6d6" />
     </radialGradient>
   </defs>
 
-  <circle cx="0" cy="60" r="80" fill="url(#snowball2)" />
-  <circle cx="0" cy="-40" r="50" fill="url(#snowball2)" />
+  <circle cx="0" cy="60" r="80" fill="url(#sneeuwbal2)" />
+  <circle cx="0" cy="-40" r="50" fill="url(#sneeuwbal2)" />
   <polygon points="10,-46 50,-40 10,-34" fill="#e66465" />
 
   <circle cx="0" cy="-55" r="5" />
