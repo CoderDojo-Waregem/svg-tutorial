@@ -5,7 +5,7 @@ Voordat we beginnen met tekenen, moeten we het hebben over het coördinatenstels
 SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
 
 <figure>
-<svg class="coordinates1" width="100%" height="100%" viewBox="-330 -320 640 640">
+<svg class="coordinates1" width="75%" viewBox="-330 -320 640 630">
 
   <style>
     .coordinates1 text {
@@ -25,8 +25,14 @@ SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij
       stroke: royalblue;
       stroke-width: 600;
     }
+    .coordinates1 .achtergrond {
+      stroke: none;
+      fill: #F5F1EB;
+    }
   </style>
-    
+
+  <rect class="achtergrond" x="-330" y="-320" width="640" height="630" />
+
   <g class="grid">
     <path d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -67,7 +73,7 @@ De coördinaten hebben zelf geen specifieke dimensie: het zijn gewoon getallen z
 Dit tekent een cirkel (hier met een dikke zwarte rand) met middelpunt op positie $$(100, 100)$$ en straal 50.
 
 <figure>
-<svg class="coordinates2" width="100%" height="100%" viewBox="-330 -320 640 640">
+<svg class="coordinates2" width="75%" viewBox="-330 -320 640 630">
 
   <style>
     .coordinates2 text {
@@ -90,9 +96,15 @@ Dit tekent een cirkel (hier met een dikke zwarte rand) met middelpunt op positie
       stroke: royalblue;
       stroke-width: 600;
     }
+    .coordinates2 .achtergrond {
+      stroke: none;
+      fill: #F5F1EB;
+    }
   </style>
     
-  <g class="grid">
+  <rect class="achtergrond" x="-330" y="-320" width="640" height="630" />
+
+<g class="grid">
     <path d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
