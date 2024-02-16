@@ -1,4 +1,7 @@
-Voor we beginnen met tekenen, moeten we het eerst hebben over het coördinatenstelsel van SVG-afbeeldingen, en over de afmetingen en het kijkvenster die vastgelegd worden in het `svg` element zelf.
+Voor we beginnen met tekenen, moeten we het eerst hebben over 
+
+- het coördinatenstelsel van SVG-afbeeldingen
+- de afmetingen en het kijkvenster die vastgelegd worden in het `svg` element zelf
 
 ### Het coördinatenstelsel van SVG
 
