@@ -9,5 +9,9 @@
   },
   "labels": [
 
-  ]
+  ],
+  "internals": {
+    "token": "BbyVwKitSQVKJVjuMFBEsQCSyQ8UvNrTWY2qnQNNwbp__wZNFiG24tXnWDsMIExG",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
