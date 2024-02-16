@@ -1,4 +1,4 @@
-A star is a simple shape. 
+Een ster is een eenvoudige vorm.
 
 <figure>
 <svg width="200" height="200" viewBox="-100 -100 200 200">
@@ -28,9 +28,9 @@ A star is a simple shape.
 </svg>
 </figure>
 
-We could define it as a bunch of polygons and set each point individually. But then we would need to know each coordinate. Instead of that, we can define just one arm, and then repeat it five times with a rotation to get the same shape. We will use the `transform` attribute to set a rotation.
+We zouden het kunnen definiëren als een hoop veelhoeken en elk punt afzonderlijk kunnen instellen. Maar dan zouden we elke coördinaat afzonderlijk moeten bepalen. In plaats daarvan kunnen we slechts één arm definiëren en deze dan vijf keer herhalen met een rotatie om dezelfde vorm te krijgen. We zullen het `transform` attribuut gebruiken om een rotatie in te stellen.
 
-First, let's define an arm. In this example, each arm consists of two polygons.
+Laten we eerst een arm definiëren. In dit voorbeeld bestaat elke arm uit twee veelhoeken.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -47,9 +47,9 @@ First, let's define an arm. In this example, each arm consists of two polygons.
 </svg>
 </figure>
 
-We can group them with a `g` element and rotate them together. The `g` element can contain other elements and attributes defined on the group element apply to its children.
+We kunnen ze groeperen met een `g` element en samen roteren. Het `g` element kan andere elementen bevatten en attributen gedefinieerd op het groepselement zijn van toepassing op zijn kinderen.
 
-Then we `rotate` each arm into the correct position.
+Vervolgens roteren we elke arm in de juiste positie.
 
 ```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
@@ -106,8 +106,8 @@ Then we `rotate` each arm into the correct position.
 </svg>
 </figure>
 
-You might notice that we define our polygons to start from the origin of the coordinate system (which is the center of the image). By default, the rotation is also around the origin of the coordinate system.
+Je hebt misschien opgemerkt dat we onze veelhoeken definiëren om te starten vanuit de oorsprong van het coördinatenstelsel (dat is het middelpunt van de afbeelding). Standaard is de rotatie ook rond de oorsprong van het coördinatenstelsel.
 
-Because we have five arms, the bottom of the image is a bit shorter than the top of the image. To center the image, we can group the whole star together and use the `translate` transformation to move everything down by 5 units along the $$y$$ coordinates.
+Omdat we vijf armen hebben, is de onderkant van de afbeelding iets korter dan de bovenkant van de afbeelding. Om de afbeelding te centreren, kunnen we de hele ster groeperen en de `translate` transformatie gebruiken om alles 5 eenheden naar beneden te verplaatsen langs de $$y$$ coordinaat.
 
-In this example, we had to copy-paste the code for each arm over and over again. In the next example, we will see how to reuse shapes.
+In dit voorbeeld moesten we de code voor elke arm steeds opnieuw kopiëren en plakken. In het volgende voorbeeld zullen we zien hoe we vormen kunnen hergebruiken.
