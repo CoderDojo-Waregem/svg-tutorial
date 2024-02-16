@@ -49,7 +49,7 @@ Laten we eerst een arm definiëren. In dit voorbeeld bestaat elke arm uit twee v
 
 We kunnen ze groeperen met een `g` element en samen roteren. Het `g` element kan andere elementen bevatten en attributen gedefinieerd op het groepselement zijn van toepassing op zijn kinderen.
 
-Vervolgens roteren we elke arm in de juiste positie.
+Vervolgens roteren we elke arm in de juiste positie met een `rotate` transformatie.
 
 ```html
 <svg width="200" height="200" viewBox="-100 -100 200 200">
