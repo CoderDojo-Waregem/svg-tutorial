@@ -56,3 +56,15 @@ Dit is dan de uiteindelijke code van de afbeelding:
   <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2" />
 </svg>
 ```
+
+<div class="dodona-centered-group">
+<figure>
+<svg width="200" height="200" viewBox="-100 -100 200 200">
+  <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
+  <circle cx="0" cy="20" r="70" fill="#D1495B" />
+  <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
+  <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2" />
+</svg>
+</figure>
+</div>
+
