@@ -5,7 +5,7 @@ Voordat we beginnen met tekenen, moeten we het hebben over het coördinatenstels
 SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
 
 <figure>
-<svg class="coordinates1" width="600px" viewBox="-330 -320 650 640">
+<svg class="coordinates1" width="600px" viewBox="-340 -320 660 640">
 
   <style>
     .coordinates1 text {
@@ -31,7 +31,7 @@ SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij
     }
   </style>
 
-  <rect class="achtergrond" x="-330" y="-320" width="650" height="640" />
+  <rect class="achtergrond" x="-340" y="-320" width="660" height="640" />
 
   <g class="grid">
     <path d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -73,7 +73,7 @@ De coördinaten hebben zelf geen specifieke dimensie: het zijn gewoon getallen z
 Dit tekent een cirkel (hier met een dikke zwarte rand) met middelpunt op positie $$(100, 100)$$ en straal 50.
 
 <figure>
-<svg class="coordinates2" width="600px" viewBox="-330 -320 650 640">
+<svg class="coordinates2" width="600px" viewBox="-340 -320 660 640">
 
   <style>
     .coordinates2 text {
@@ -102,7 +102,7 @@ Dit tekent een cirkel (hier met een dikke zwarte rand) met middelpunt op positie
     }
   </style>
     
-  <rect class="achtergrond" x="-330" y="-320" width="650" height="640" />
+  <rect class="achtergrond" x="-340" y="-320" width="660" height="640" />
 
   <g class="grid">
     <path d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
