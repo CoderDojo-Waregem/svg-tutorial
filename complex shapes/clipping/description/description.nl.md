@@ -17,7 +17,7 @@ Dit is dezelfde kerstbal die we eerder ook al getekend hebben, behalve dat hij n
 </svg>
 </figure>
 
-Standaard zou de `polyline` niet samenvallen met de rand van de cirkel. Zonder **bijknippen** zou dit motief er zo uitzien:
+Standaard zou de `polyline` niet samenvallen met de rand van de cirkel. Zonder **bijknippen** zou het motief er zo uitzien:
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
