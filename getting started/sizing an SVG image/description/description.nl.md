@@ -5,12 +5,12 @@ Voordat we beginnen met tekenen, moeten we het hebben over het coördinatenstels
 SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
 
 <figure>
-<svg class="coordinates1" width="75%" viewBox="-330 -320 640 630">
+<svg class="coordinates1" width="600px" viewBox="-330 -320 640 630">
 
   <style>
     .coordinates1 text {
       font-family:consolas,monospace;
-      font-size:10;
+      font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
@@ -73,17 +73,17 @@ De coördinaten hebben zelf geen specifieke dimensie: het zijn gewoon getallen z
 Dit tekent een cirkel (hier met een dikke zwarte rand) met middelpunt op positie $$(100, 100)$$ en straal 50.
 
 <figure>
-<svg class="coordinates2" width="75%" viewBox="-330 -320 640 630">
+<svg class="coordinates2" width="600px" viewBox="-330 -320 640 630">
 
   <style>
     .coordinates2 text {
       font-family:consolas,monospace;
-      font-size:10;
+      font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
     .coordinates2 text.coord {
-      font-size:8;
+      font-size:8px;
     }
     .coordinates2 .grid { 
       display: initial; 
