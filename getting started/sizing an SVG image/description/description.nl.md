@@ -1,6 +1,6 @@
 Voor we beginnen met tekenen, moeten we het eerst hebben over het coördinatenstelsel van SVG-afbeeldingen, en over de afmetingen en het kijkvenster die vastgelegd worden in het `svg` element zelf.
 
-### Het coördinatensysteem van SVG
+### Het coördinatenstelsel van SVG
 
 SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
 
