@@ -5,7 +5,7 @@ Voor we beginnen met tekenen, moeten we het eerst hebben over
 
 ### Het coördinatenstelsel van SVG
 
-SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
+De afbeeldingselementen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
 
 <figure>
 <svg class="coordinaten1" width="600px" viewBox="-335 -320 655 640">
