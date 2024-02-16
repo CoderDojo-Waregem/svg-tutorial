@@ -1,4 +1,4 @@
-All paths we have drawn so far consisted of straight lines. Let's draw this curved Christmas tree.
+Alle paden die we tot nu toe getekend hebben, bestonden uit rechte lijnen. Laat ons eens deze gebogen kerstboom tekenen.
 
 <figure>
 <svg width="200px" height="250px" viewBox="-100 -100 200 250">
@@ -29,9 +29,9 @@ All paths we have drawn so far consisted of straight lines. Let's draw this curv
 </svg>
 </figure>
 
-The path element becomes really powerful when we start using curves. One of them is the **quadratic Bezier curve**. We not only set the endpoint, but we also have to set a control point.
+Het `path`-element wordt echt krachtig als we krommen gaan gebruiken. Een daarvan is de **kwadratische Bezierkromme**. Daarvoor moeten we niet alleen een eindpunt instellen, maar we moeten ook een controlepunt instellen.
 
-The control point is an invisible coordinate to which the line is bending to, but not touching it. Look at this happy face! Here the invisible control point is at the middle of the bottom of the image (at coordinate `0,100`).
+Het controlepunt is een onzichtbare coördinaat waar de lijn naartoe buigt, maar niet raakt. Kijk naar dit blije gezicht! Hier is het onzichtbare controlepunt in het midden van de onderkant van de afbeelding (op coördinaat `0,100`).
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -50,7 +50,7 @@ The control point is an invisible coordinate to which the line is bending to, bu
 </svg>
 </figure>
 
-In the example above the control point is at the same distance of the two endpoints. This is not necessary. In the example below we mark the control point with a circle. Note, that the control point and the circle have the same coordinates.
+In dit voorbeeld ligt het controlepunt op dezelfde afstand van de twee eindpunten. Dit is niet noodzakelijk. In onderstaand voorbeeld markeren we het controlepunt met een cirkel. Merk op dat het controlepunt en de cirkel dezelfde coördinaten hebben.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -67,9 +67,9 @@ In the example above the control point is at the same distance of the two endpoi
 </svg>
 </figure>
 
-Click here for [an interactive demo](https://hunormarton.github.io/svg-curves){: target="_blank"} of quadratic Bézier curves (select **Quadratic Bézier** at the top of the page).
+Klik hier voor [een interactieve demo](https://hunormarton.github.io/svg-curves){: target="_blank"} van kwadratische Bézierkrommen (selecteer **Quadratic Bézier** bovenaan de pagina).
 
-To draw our curved Christmas tree, we have a series of quadratic Béziers where the control points get further and further away from the center of the tree as the path goes down.
+Om onze gebogen kerstboom te tekenen, hebben we een reeks kwadratische Béziers waarbij de controlepunten steeds verder weg komen te liggen van het middelpunt van de boom naarmate het pad naar beneden gaat.
 
 ```html
 <svg width="200px" height="250px" viewBox="-100 -100 200 250">
@@ -128,7 +128,7 @@ To draw our curved Christmas tree, we have a series of quadratic Béziers where 
 </svg>
 </figure>
 
-If we break down each quadratic bézier above into two line segments with the same coordinates, that would look like this:
+Als we elke kwadratische Bézierkromme hierboven opsplitsen in twee lijnstukken met dezelfde coördinaten, dan zou dat er zo uitzien:
 
 ```html
 <svg width="200px" height="250px" viewBox="-100 -100 200 250">
