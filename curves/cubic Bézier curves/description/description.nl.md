@@ -1,19 +1,19 @@
-Let's try to make a drawing of this gift box.
+Laten we proberen een tekening te maken van deze geschenkdoos.
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .box {
+    .doos {
       fill: #d1495b;
       stroke: black;
       stroke-width: 2px;
     }
-    .stripe {
+    .streep {
       fill: white;
       stroke: black;
       stroke-width: 2px;
     }
-    .ribbon {
+    .lint {
       stroke: #b73a3b;
       stroke-width: 4px;
       fill: none;
@@ -22,18 +22,18 @@ Let's try to make a drawing of this gift box.
 
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="-50" r="10" fill="#a9172a" />
-  <rect class="box" x="-60" y="-40" width="120" height="100" />
-  <rect class="box" x="-70" y="-47" width="140" height="20" />
-  <rect class="stripe" x="-20" y="-40" width="40" height="100" />
-  <rect class="stripe" x="-25" y="-47" width="50" height="20" />
-  <path class="ribbon" d="M0,-50 L30,-50 C50,-50,50,-70,30,-65 L0,-50" />
-  <path class="ribbon" d="M0,-50 L-30,-50 C-50,-50,-50,-70,-30,-65 L0,-50" />
+  <rect class="doos" x="-60" y="-40" width="120" height="100" />
+  <rect class="doos" x="-70" y="-47" width="140" height="20" />
+  <rect class="streep" x="-20" y="-40" width="40" height="100" />
+  <rect class="streep" x="-25" y="-47" width="50" height="20" />
+  <path class="lint" d="M0,-50 L30,-50 C50,-50,50,-70,30,-65 L0,-50" />
+  <path class="lint" d="M0,-50 L-30,-50 C-50,-50,-50,-70,-30,-65 L0,-50" />
 </svg>
 </figure>
 
-While the quadratic Bézier is great when we want to bend a line, often it’s not flexible enough. With cubic Bézier, we not only have one control point but two. The first control point sets the initial direction of the curve and the second one defines from which direction should the curve arrive at its endpoint.
+Hoewel de kwadratische Bézier fantastisch is als we een lijn willen buigen, is ze vaak niet flexibel genoeg. Met kubische Bézierkrommen hebben we niet slechts één controlepunt, maar twee. Het eerste controlepunt bepaalt de beginrichting van de kromme en het tweede bepaalt vanuit welke richting de kromme bij het eindpunt moet komen.
 
-Again, let’s see an example, where the circles represent the control points.
+Laten we opnieuw een voorbeeld bekijken, waarbij de cirkels de controlepunten voorstellen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -52,11 +52,11 @@ Again, let’s see an example, where the circles represent the control points.
 </svg>
 </figure>
 
-Click here for [an interactive demo](https://hunormarton.github.io/svg-curves){: target="_blank"} of cubic Béziers (select **Cubic Bézier** at the top of the page).
+Klik hier voor [een interactieve demo](https://hunormarton.github.io/svg-curves){: target="_blank"} van kubische Bézierkrommen (selecteer **Cubic Bézier** bovenaan de pagina).
 
-Cubic Béziers are great when we want to continue the flow of a line. If the direction of the control points matches the directions of the line before and the line after the curve, then we have a smooth transition between the path segments.
+Kubische Béziers zijn geweldig wanneer we de kromming van een lijn willen voortzetten. Als de richting van de controlepunten overeenkomt met de richtingen van de lijn voor en de lijn na de kromme, dan hebben we een vloeiende overgang tussen de padsegmenten.
 
-In this example, the ribbon of the gift box uses a cubic Bézier that smoothly continues the previous straight line and then turns back to the direction of the upcoming line.
+In dit voorbeeld gebruikt het lint van de geschenkdoos een kubische Bézier die de vorige rechte lijn vloeiend voortzet en dan terugdraait in de richting van de komende lijn.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -75,22 +75,22 @@ In this example, the ribbon of the gift box uses a cubic Bézier that smoothly c
 </svg>
 </figure>
 
-Apart from the cubic Béziers the rest of this image is mainly just a few rectangles and a circle.
+Afgezien van het kubische Béziers bestaat de rest van deze afbeelding voornamelijk uit een paar rechthoeken en een cirkel.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .box {
+    .doos {
       fill: #d1495b;
       stroke: black;
       stroke-width: 2px;
     }
-    .stripe {
+    .streep {
       fill: white;
       stroke: black;
       stroke-width: 2px;
     }
-    .ribbon {
+    .lint {
       stroke: #b73a3b;
       stroke-width: 4px;
       fill: none;
@@ -98,29 +98,29 @@ Apart from the cubic Béziers the rest of this image is mainly just a few rectan
   </style>
 
   <circle cx="0" cy="-50" r="10" fill="#a9172a" />
-  <rect class="box" x="-60" y="-40" width="120" height="100" />
-  <rect class="box" x="-70" y="-47" width="140" height="20" />
-  <rect class="stripe" x="-20" y="-40" width="40" height="100" />
-  <rect class="stripe" x="-25" y="-47" width="50" height="20" />
-  <path class="ribbon" d="M0,-50 L30,-50 C50,-50,50,-70,30,-65 L0,-50" />
-  <path class="ribbon" d="M0,-50 L-30,-50 C-50,-50,-50,-70,-30,-65 L0,-50" />
+  <rect class="doos" x="-60" y="-40" width="120" height="100" />
+  <rect class="doos" x="-70" y="-47" width="140" height="20" />
+  <rect class="streep" x="-20" y="-40" width="40" height="100" />
+  <rect class="streep" x="-25" y="-47" width="50" height="20" />
+  <path class="lint" d="M0,-50 L30,-50 C50,-50,50,-70,30,-65 L0,-50" />
+  <path class="lint" d="M0,-50 L-30,-50 C-50,-50,-50,-70,-30,-65 L0,-50" />
 </svg>
 ```
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .box {
+    .doos {
       fill: #d1495b;
       stroke: black;
       stroke-width: 2px;
     }
-    .stripe {
+    .streep {
       fill: white;
       stroke: black;
       stroke-width: 2px;
     }
-    .ribbon {
+    .lint {
       stroke: #b73a3b;
       stroke-width: 4px;
       fill: none;
@@ -129,11 +129,11 @@ Apart from the cubic Béziers the rest of this image is mainly just a few rectan
 
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="-50" r="10" fill="#a9172a" />
-  <rect class="box" x="-60" y="-40" width="120" height="100" />
-  <rect class="box" x="-70" y="-47" width="140" height="20" />
-  <rect class="stripe" x="-20" y="-40" width="40" height="100" />
-  <rect class="stripe" x="-25" y="-47" width="50" height="20" />
-  <path class="ribbon" d="M0,-50 L30,-50 C50,-50,50,-70,30,-65 L0,-50" />
-  <path class="ribbon" d="M0,-50 L-30,-50 C-50,-50,-50,-70,-30,-65 L0,-50" />
+  <rect class="doos" x="-60" y="-40" width="120" height="100" />
+  <rect class="doos" x="-70" y="-47" width="140" height="20" />
+  <rect class="streep" x="-20" y="-40" width="40" height="100" />
+  <rect class="streep" x="-25" y="-47" width="50" height="20" />
+  <path class="lint" d="M0,-50 L30,-50 C50,-50,50,-70,30,-65 L0,-50" />
+  <path class="lint" d="M0,-50 L-30,-50 C-50,-50,-50,-70,-30,-65 L0,-50" />
 </svg>
 </figure>
