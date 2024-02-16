@@ -1,8 +1,7 @@
 The filling of a shape can be defined as a gradient. We add a subtle 3D effect to our Christmas decoration and build a snowman.
 
 <figure>
-<svg width="200px" height="250px" viewBox="-100 -100 200 250" 
-  style="background-color: lightblue">
+<svg width="200px" height="250px" viewBox="-100 -100 200 250" style="background-color: lightblue">
   <defs>
     <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
@@ -96,8 +95,7 @@ We define its ID, center position with `cx` and `cy`, set its radius, and the st
 For the snowman we draw two circles with a similar gradient as follows.
 
 ```html
-<svg width="200px" height="200px" viewBox="-100 -100 200 200" 
-  style="background-color: lightblue">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200" style="background-color: lightblue">
   <defs>
     <radialGradient id="snowball" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
@@ -111,8 +109,7 @@ For the snowman we draw two circles with a similar gradient as follows.
 ```
 
 <figure>
-<svg width="200px" height="200px" viewBox="-100 -100 200 200" 
-  style="background-color: lightblue">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200" style="background-color: lightblue">
   <defs>
     <radialGradient id="snowball1" cx="0.25" cy="0.25" r="1">
       <stop offset="0%" stop-color="white" />
