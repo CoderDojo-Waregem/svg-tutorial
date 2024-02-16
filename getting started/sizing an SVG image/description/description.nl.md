@@ -5,27 +5,27 @@ Voor we beginnen met tekenen, moeten we het eerst hebben over het coördinatenst
 SVG-afbeeldingen worden getekend in een vlak met een coördinatenstelsel waarbij de $$x$$-as van links naar rechts loopt, en de $$y$$-as van boven naar onder. Vooral dat laatste is misschien wel wat wennen, want in de wiskundelessen loopt de $$y$$-as meestal van onder naar boven.
 
 <figure>
-<svg class="coordinates1" width="600px" viewBox="-335 -320 655 640">
+<svg class="coordinaten1" width="600px" viewBox="-335 -320 655 640">
 
   <style>
-    .coordinates1 text {
+    .coordinaten1 text {
       font-family:consolas,monospace;
       font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
-    .coordinates1 .grid { 
+    .coordinaten1 .grid { 
       display: initial; 
     }
-    .coordinates1 .grid text.left {
+    .coordinaten1 .grid text.left {
       text-anchor:end;
     }
-    .coordinates1 .grid path {
+    .coordinaten1 .grid path {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    .coordinates1 .achtergrond {
+    .coordinaten1 .achtergrond {
       stroke: none;
       fill: #F5F1EB;
     }
@@ -73,30 +73,30 @@ De coördinaten zelf hebben geen specifieke dimensie: het zijn gewoon getallen z
 Dit tekent een cirkel (hieronder weergegeven met een dikke zwarte rand) met middelpunt op positie $$(100, 100)$$ en straal 50.
 
 <figure>
-<svg class="coordinates2" width="600px" viewBox="-335 -320 655 640">
+<svg class="coordinaten2" width="600px" viewBox="-335 -320 655 640">
 
   <style>
-    .coordinates2 text {
+    .coordinaten2 text {
       font-family:consolas,monospace;
       font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
-    .coordinates2 text.coord {
+    .coordinaten2 text.coord {
       font-size:8px;
     }
-    .coordinates2 .grid { 
+    .coordinaten2 .grid { 
       display: initial; 
     }
-    .coordinates2 .grid text.left {
+    .coordinaten2 .grid text.left {
       text-anchor:end;
     }
-    .coordinates2 .grid path {
+    .coordinaten2 .grid path {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    .coordinates2 .achtergrond {
+    .coordinaten2 .achtergrond {
       stroke: none;
       fill: #F5F1EB;
     }
@@ -145,7 +145,7 @@ Het SVG-element bevat alle afbeeldingselementen, maar het definieert ook de afme
 
 De eigenschappen `width` (breedte) en `height` (hoogte) bepalen hoeveel ruimte de afbeelding inneemt in de browser. Dit zijn de externe maten. De grootte die wordt gedefinieerd door `width` en `height` is hoe de rest van HTML denkt over de SVG-afbeelding en hoe groot deze wordt weergegeven in de browser.
 
-Er is ook een eigenschap `viewBox` die het kijkvenster op het coördinatensysteem definieert voor de afbeelding. Dit zijn de interne maten. De eerste twee waarden in `viewBox` bepalen de positie van de linkerbovenhoek van het kijkvenster en de laatste twee waarden bepalen de breedte en de hoogte van het kijkvenster vanuit het perspectief van de afbeeldingselementen. De grootte gedefinieerd door `viewBox` is hoe de afbeeldingselementen denken over de afbeelding wanneer ze zichzelf positioneren binnen het coördinatenstelsel van SVG.
+Er is ook een eigenschap `viewBox` die het kijkvenster op het coördinatensysteem definieert voor de afbeelding. Enkel die delen van de afbeeldingselementen die binnen het kijkvenster vallen, zijn zichtbaar in de SVG-afbeelding. Het kijkvenster wordt gedefinieerd op basis van vier interne maten die refereren aan het coördinatensysteem van de SVG-afbeelding. De eerste twee waarden van de eigenschap `viewBox` bepalen de positie van de linkerbovenhoek van het kijkvenster en de laatste twee waarden bepalen de breedte en de hoogte van het kijkvenster vanuit het perspectief van de afbeeldingselementen. De grootte gedefinieerd door `viewBox` is hoe de afbeeldingselementen denken over de afbeelding wanneer ze zichzelf positioneren binnen het coördinatenstelsel van SVG.
 
 In de volgende drie voorbeelden hebben de drie SVG-afbeeldingen precies dezelfde inhoud: de cirkel met middelpunt op positie $$(100, 100)$$ en straal 50 die we hierboven al zijn tegengekomen. De drie afbeelden verschillen echter qua kijkvenster, waardoor de cirkel telkens anders gepositioneerd is binnen de afbeelding. Of ze verschillen qua afmetingen waardoor de afbeelding groter of kleiner weergegeven wordt in de browser. Als de grootte die door `viewBox` gedefinieerde wordt, niet overeenkomt met de eigenschappen `width` en `height`, dan wordt de afbeelding groter of kleiner gemaakt.
 
@@ -165,30 +165,30 @@ In de volgende drie voorbeelden hebben de drie SVG-afbeeldingen precies dezelfde
 Deze SVG-afbeelding heeft een kijkvenster met linkerbovenhoek op positie $$(0, 0)$$ en een breedte en hoogte van 200.
 
 <figure>
-<svg class="coordinates3" width="600px" viewBox="-335 -320 655 640">
+<svg class="coordinaten3" width="600px" viewBox="-335 -320 655 640">
 
   <style>
-    .coordinates3 text {
+    .coordinaten3 text {
       font-family:consolas,monospace;
       font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
-    .coordinates3 text.coord {
+    .coordinaten3 text.coord {
       font-size:8px;
     }
-    .coordinates3 .grid { 
+    .coordinaten3 .grid { 
       display: initial; 
     }
-    .coordinates3 .grid text.left {
+    .coordinaten3 .grid text.left {
       text-anchor:end;
     }
-    .coordinates3 .grid path {
+    .coordinaten3 .grid path {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    .coordinates3 .achtergrond {
+    .coordinaten3 .achtergrond {
       stroke: none;
       fill: #F5F1EB;
     }
@@ -272,30 +272,30 @@ Onderstaande figuur wordt dan weer even groot weergegeven in de browser.
 Maar in dit geval is de breedte en de hoogte van het kijkvenster maar half zo groot: het kijkvenster heeft een breedte en een hoogte van 100.
 
 <figure>
-<svg class="coordinates4" width="600px" viewBox="-335 -320 655 640">
+<svg class="coordinaten4" width="600px" viewBox="-335 -320 655 640">
 
   <style>
-    .coordinates4 text {
+    .coordinaten4 text {
       font-family:consolas,monospace;
       font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
-    .coordinates4 text.coord {
+    .coordinaten4 text.coord {
       font-size:8px;
     }
-    .coordinates4 .grid { 
+    .coordinaten4 .grid { 
       display: initial; 
     }
-    .coordinates4 .grid text.left {
+    .coordinaten4 .grid text.left {
       text-anchor:end;
     }
-    .coordinates4 .grid path {
+    .coordinaten4 .grid path {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    .coordinates4 .achtergrond {
+    .coordinaten4 .achtergrond {
       stroke: none;
       fill: #F5F1EB;
     }
@@ -365,30 +365,30 @@ We kunnen ook instellen op welke coördinaat de linkerbovenhoek van het kijkvens
 Merk op dat positie van het middelpunt van de cirkel nu `0,0` is.
 
 <figure>
-<svg class="coordinates5" width="600px" viewBox="-335 -320 655 640">
+<svg class="coordinaten5" width="600px" viewBox="-335 -320 655 640">
 
   <style>
-    .coordinates5 text {
+    .coordinaten5 text {
       font-family:consolas,monospace;
       font-size:10px;
       text-anchor:middle;
       dominant-baseline:middle;
     }
-    .coordinates5 text.coord {
+    .coordinaten5 text.coord {
       font-size:8px;
     }
-    .coordinates5 .grid { 
+    .coordinaten5 .grid { 
       display: initial; 
     }
-    .coordinates5 .grid text.left {
+    .coordinaten5 .grid text.left {
       text-anchor:end;
     }
-    .coordinates5 .grid path {
+    .coordinaten5 .grid path {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    .coordinates5 .achtergrond {
+    .coordinaten5 .achtergrond {
       stroke: none;
       fill: #F5F1EB;
     }
