@@ -9,7 +9,7 @@ We will use the online text editor [StackBlitz](https://stackblitz.com/fork/web-
 Put the text for the SVG image directly into the file `index.html`. There is no need to write HTML code. You can restrict yourself to the SVG image only.
 
 ```html
-<svg width="100" height="100" viewBox="0 0 100 100">
+<svg width="100px" height="100px" viewBox="0 0 100 100">
   <cirkel cx="50" cy="50" r="25" fill="red" />
 </svg>
 ```
