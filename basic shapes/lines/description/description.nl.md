@@ -1,7 +1,7 @@
 Het zal je misschien verbazen hoe eenvoudig het is om dit peperkoeken mannetje te tekenen op basis van een aantal lijnen. We leren ook hoe je de uiteinden van lijnen en de hoekpunten van rechthoeken kunt afronden.
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd {
       fill: #cd803d;
@@ -38,7 +38,7 @@ Het zal je misschien verbazen hoe eenvoudig het is om dit peperkoeken mannetje t
 We kunnen CSS-klassen toewijzen aan elk element en sommige attributen verplaatsen naar CSS. We kunnen echter alleen de presentatie-attributen verplaatsen. Positieattributen en attributen die de vormen definiëren moeten in de SVG-tags blijven. Maar attributen voor kleuren, lijnen en lettertypes kunnen naar CSS verplaatst worden.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd {
       fill: #cd803d;
@@ -49,7 +49,7 @@ We kunnen CSS-klassen toewijzen aan elk element en sommige attributen verplaatse
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd1 {
       fill: #cd803d;
@@ -67,7 +67,7 @@ We zagen al de `fill` en enkele `stroke` eigenschappen, maar hier is nog een pre
 Ter vergelijking, als we de `stroke-linecap` verwijderen en een smallere `stroke-width` instellen, dan zou het er zo uitzien.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .ledemaat {
       stroke: #cd803d;
@@ -80,7 +80,7 @@ Ter vergelijking, als we de `stroke-linecap` verwijderen en een smallere `stroke
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .ledemaat2 {
       stroke: #cd803d;
@@ -98,7 +98,7 @@ Ter vergelijking, als we de `stroke-linecap` verwijderen en een smallere `stroke
 Maar door een dikke lijnbreedte en een rond uiteinde in te stellen, kunnen we benen en armen vormgeven voor onze figuur.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .ledemaat {
       stroke: #cd803d;
@@ -113,7 +113,7 @@ Maar door een dikke lijnbreedte en een rond uiteinde in te stellen, kunnen we be
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .ledemaat3 {
       stroke: #cd803d;
@@ -133,7 +133,7 @@ Maar door een dikke lijnbreedte en een rond uiteinde in te stellen, kunnen we be
 Let ook op de `rx` eigenschap bij de rechthoek die de mond definieert. Hierdoor worden de randen afgerond. Het is vergelijkbaar met de `border-radius` eigenschap voor gewone HTML-elementen.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd {
       fill: #cd803d;
@@ -150,7 +150,7 @@ Let ook op de `rx` eigenschap bij de rechthoek die de mond definieert. Hierdoor 
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd4 {
       fill: #cd803d;
@@ -172,7 +172,7 @@ Let ook op de `rx` eigenschap bij de rechthoek die de mond definieert. Hierdoor 
 Zodra we alles hebben samengevoegd en ogen en knoppen hebben toegevoegd, ziet de uiteindelijke code er zo uit:
 
 ```html
-<svg class="gingerbread" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="gingerbread" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd {
       fill: #cd803d;
@@ -204,7 +204,7 @@ Zodra we alles hebben samengevoegd en ogen en knoppen hebben toegevoegd, ziet de
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .hoofd {
       fill: #cd803d;

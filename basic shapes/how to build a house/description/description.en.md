@@ -1,7 +1,7 @@
 In this example, we combine everything we learned so far to draw a house. 
 
 <figure>
-<svg class="house" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house {
       stroke: black;
@@ -54,7 +54,7 @@ This is done by using circles, rectangles, lines, polylines, and polygons.
 We start with the front of the house. Note that we not only have a class on the wall element but on the whole SVG as well.
 
 ```html
-<svg class="house" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house {
       stroke: black;
@@ -67,7 +67,7 @@ We start with the front of the house. Note that we not only have a class on the 
 ```
 
 <figure>
-<svg class="house1" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house1" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house1 {
       stroke: black;
@@ -87,7 +87,7 @@ We start with the front of the house. Note that we not only have a class on the 
 Then we add a roof on top of it. This is the only thing that is new here. We use a `polyline`. The difference between a `polyline` and a `polygon` is that a `polygon` will always close itself, and the `polyline` will stay open. Note that we are using the `stroke-linecap` property again as we did with the gingerbread figure example.
 
 ```html
-<svg class="house" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house {
       stroke: black;
@@ -99,7 +99,7 @@ Then we add a roof on top of it. This is the only thing that is new here. We use
 </svg>
 ```
 <figure>
-<svg class="house2" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house2" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house2 .roof {
       fill: none;
@@ -120,7 +120,7 @@ Then we add a roof on top of it. This is the only thing that is new here. We use
 Then we keep adding simple elements for the door, the windows, and the stairs. The final code for the image on the left will be as follows:
 
 ```html
-<svg class="house" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house {
       stroke: black;
@@ -168,7 +168,7 @@ Then we keep adding simple elements for the door, the windows, and the stairs. T
 ```
 
 <figure>
-<svg class="house" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="house" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .house {
       stroke: black;

@@ -2,7 +2,7 @@ Let’s start with a simple Christmas ornament.
 
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
@@ -18,13 +18,13 @@ First, we define the main part of the Christmas ornament, by drawing a `circle`.
 We also have presentational attributes that style our shapes. Similar to the `background-color` property in CSS, we set the color for the shape with the `fill` attribute.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
 </svg>
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
 </svg>
@@ -33,14 +33,14 @@ We also have presentational attributes that style our shapes. Similar to the `ba
 Then we draw a rectangle as a little cap on top of the Christmas ornament with the `rect` element. In this case, we have to set the top-left position of the rectangle and its size. We use the `fill` attribute the same way as we did with the circle.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
 </svg>
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
@@ -52,7 +52,7 @@ Finally, we add another circle as a hanger on top of these. Note that we use the
 The final code of the image is as follows:
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
   <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2" />
@@ -60,7 +60,7 @@ The final code of the image is as follows:
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB"/>
   <circle cx="0" cy="20" r="70" fill="#D1495B" />
   <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />

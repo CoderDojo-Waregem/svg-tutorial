@@ -1,7 +1,7 @@
 In dit voorbeeld combineren we alles wat we tot nu toe hebben geleerd om een huis te tekenen. 
 
 <figure>
-<svg class="huis" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis {
       stroke: black;
@@ -54,7 +54,7 @@ Hiervoor gebruiken we cirkels, rechthoeken, lijnen, `polyline` en veelhoeken.
 We beginnen met de gevel van het huis. Merk op dat we niet alleen een klasse hebben voor het gevel-element, maar ook voor de hele SVG.
 
 ```html
-<svg class="huis" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis {
       stroke: black;
@@ -67,7 +67,7 @@ We beginnen met de gevel van het huis. Merk op dat we niet alleen een klasse heb
 ```
 
 <figure>
-<svg class="huis1" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis1" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis1 {
       stroke: black;
@@ -87,7 +87,7 @@ We beginnen met de gevel van het huis. Merk op dat we niet alleen een klasse heb
 Daarna voegen we er een dak bovenop. Dit is het enige dat hier nieuw is. We gebruiken een `polyline`. Het verschil tussen een `polyline` en een `polygon` is dat een `polygon` zichzelf altijd sluit, en de `polyline` open blijft. Merk op dat we de `stroke-linecap` eigenschap weer gebruiken zoals we deden met het voorbeeld van de peperkoekfiguur.
 
 ```html
-<svg class="huis" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis {
       stroke: black;
@@ -99,7 +99,7 @@ Daarna voegen we er een dak bovenop. Dit is het enige dat hier nieuw is. We gebr
 </svg>
 ```
 <figure>
-<svg class="huis2" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis2" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis2 .dak {
       fill: none;
@@ -120,7 +120,7 @@ Daarna voegen we er een dak bovenop. Dit is het enige dat hier nieuw is. We gebr
 Daarna blijven we eenvoudige elementen toevoegen voor de deur, de ramen en de trap. De uiteindelijke code voor de afbeelding ziet er als volgt uit:
 
 ```html
-<svg class="huis" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis {
       stroke: black;
@@ -168,7 +168,7 @@ Daarna blijven we eenvoudige elementen toevoegen voor de deur, de ramen en de tr
 ```
 
 <figure>
-<svg class="huis" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="huis" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .huis {
       stroke: black;

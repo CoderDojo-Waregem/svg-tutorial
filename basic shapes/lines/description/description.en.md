@@ -1,7 +1,7 @@
 You may be surprised at how easy it is to draw this gingerbread man based on a few lines. We also learn how to round the ends of lines and the vertices of rectangles.
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
@@ -38,7 +38,7 @@ You may be surprised at how easy it is to draw this gingerbread man based on a f
 We can assign CSS classes to each element and move some attributes to CSS. We can only move the presentation attributes though. Position attributes and attributes that define the shapes have to stay in the SVG-tags. But colors, stroke, and font attributes can be moved to CSS.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
@@ -49,7 +49,7 @@ We can assign CSS classes to each element and move some attributes to CSS. We ca
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head1 {
       fill: #cd803d;
@@ -67,7 +67,7 @@ We already saw the `fill` and some `stroke` properties, but here’s another sty
 To give you a comparison if we remove the line cap and set a smaller `stroke-width`, then this is how it would look like.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .limb {
       stroke: #cd803d;
@@ -80,7 +80,7 @@ To give you a comparison if we remove the line cap and set a smaller `stroke-wid
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .limb2 {
       stroke: #cd803d;
@@ -98,7 +98,7 @@ To give you a comparison if we remove the line cap and set a smaller `stroke-wid
 But by setting a thick stroke width and a round line cap we can shape legs and arms for our figure.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .limb {
       stroke: #cd803d;
@@ -113,7 +113,7 @@ But by setting a thick stroke width and a round line cap we can shape legs and a
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .limb3 {
       stroke: #cd803d;
@@ -133,7 +133,7 @@ But by setting a thick stroke width and a round line cap we can shape legs and a
 Also, note the `rx` property at the rectangle defining the mouth. This will make the edges rounded. It is similar to the `border-radius` property for regular HTML elements.
 
 ```html
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
@@ -150,7 +150,7 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head4 {
       fill: #cd803d;
@@ -172,7 +172,7 @@ Also, note the `rx` property at the rectangle defining the mouth. This will make
 Once we put it all together, and add eyes and buttons, this is how the final code looks like:
 
 ```html
-<svg class="gingerbread" width="200" height="200" viewBox="-100 -100 200 200">
+<svg class="gingerbread" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
@@ -204,7 +204,7 @@ Once we put it all together, and add eyes and buttons, this is how the final cod
 ```
 
 <figure>
-<svg width="200" height="200" viewBox="-100 -100 200 200">
+<svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
     .head {
       fill: #cd803d;
