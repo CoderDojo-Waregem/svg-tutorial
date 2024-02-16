@@ -1,4 +1,4 @@
-De opvulling van een vorm kan worden gedefinieerd als een kleurovergang. We voegen een subtiel 3D-effect toe aan onze kerstbal en bouwen een sneeuwpop.
+De opvulling van een vorm kan gedefinieerd worden als een kleurovergang. We voegen een subtiel 3D-effect toe aan onze kerstbal en bouwen een sneeuwpop.
 
 <figure>
 <svg width="200px" height="250px" viewBox="-100 -100 200 250" style="background-color: lightblue">
