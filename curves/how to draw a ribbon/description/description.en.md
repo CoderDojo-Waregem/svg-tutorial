@@ -144,14 +144,14 @@ We finish up the image by adding an `ellipse` element in the middle and a stroke
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <defs>
-      <path fill="#B73A3B" id="ribbon" d="
+      <path fill="#B73A3B" id="ribbon1" d="
         M0,-20 Q28,-40,56,-45 C96,-48,96,48,56,45 Q28,40,0,20" 
       />
   </defs>
 
   <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
-  <use href="#ribbon" />
-  <use href="#ribbon" transform="scale(-1)" />
+  <use href="#ribbon1" />
+  <use href="#ribbon1" transform="scale(-1)" />
   <ellipse cx="0" cy="0" rx="20" ry="24" fill="#9C2D2A" />
   <path fill="none" stroke="#B73A3B" stroke-width="3" d="
     M0,20 Q40,40,30,60 Q20,80,40,90 

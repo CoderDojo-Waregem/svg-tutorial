@@ -1,16 +1,16 @@
-After we learned about quadratic Bézier curves and cubic Bézier curves, let's do another practice round where we use both to draw this ribbon.
+Nadat we hebben geleerd over kwadratische Bézierkrommen en kubische Bézierkrommen, doen we nog een oefenrondje waarbij we beide soorten krommen gebruiken om dit strikje te tekenen.
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <defs>
-      <path fill="#B73A3B" id="ribbon" d="
+      <path fill="#B73A3B" id="strikje" d="
         M0,-20 Q28,-40,56,-45 C96,-48,96,48,56,45 Q28,40,0,20" 
       />
   </defs>
 
   <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
-  <use href="#ribbon" />
-  <use href="#ribbon" transform="scale(-1)" />
+  <use href="#strikje" />
+  <use href="#strikje" transform="scale(-1)" />
   <ellipse cx="0" cy="0" rx="20" ry="24" fill="#9C2D2A" />
   <path fill="none" stroke="#B73A3B" stroke-width="3" d="
     M0,20 Q40,40,30,60 Q20,80,40,90 
@@ -19,7 +19,7 @@ After we learned about quadratic Bézier curves and cubic Bézier curves, let's 
 </svg>
 </figure>
 
-We start with the right side of the ribbon with a quadratic Bézier curve. The dot represents the control point again.
+We beginnen voor de rechterkant van het strikje met een kwadratische Bézierkromme. De stip stelt opnieuw het controlepunt voor.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -41,7 +41,7 @@ We start with the right side of the ribbon with a quadratic Bézier curve. The d
 </svg>
 </figure>
 
-Then we continue with a cubic Bézier.
+Daarna gaan we verder met een kubische Bézier.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -66,7 +66,7 @@ Then we continue with a cubic Bézier.
 </svg>
 </figure>
 
-And finish up with another quadratic cubic Bézier that mirrors the first one.
+En we eindigen met nog een kwadratische kubische Bézierkromme die het spiegelbeeld is van de eerste.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -92,47 +92,47 @@ And finish up with another quadratic cubic Bézier that mirrors the first one.
 </svg>
 </figure>
 
-Then we can move the whole shape into a reusable component and use it for both sizes. Note that to mirror it to the left side we use negative scaling.
+Dan kunnen we de volledige vorm verplaatsen naar een herbruikbare component en die voor beide kanten van het strikje gebruiken. Merk op dat we negatieve schaling gebruiken om naar de linkerkant te spiegelen.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <defs>
-      <path fill="#B73A3B" id="ribbon" d="
+      <path fill="#B73A3B" id="strikje" d="
         M0,-20 Q28,-40,56,-45 C96,-48,96,48,56,45 Q28,40,0,20" 
       />
   </defs>
 
-  <use href="#ribbon" />
-  <use href="#ribbon" transform="scale(-1)" />
+  <use href="#strikje" />
+  <use href="#strikje" transform="scale(-1)" />
 </svg>
 ```
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <defs>
-      <path fill="#B73A3B" id="ribbon" d="
+      <path fill="#B73A3B" id="strikje" d="
         M0,-20 Q28,-40,56,-45 C96,-48,96,48,56,45 Q28,40,0,20" 
       />
   </defs>
 
   <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
-  <use href="#ribbon" />
-  <use href="#ribbon" transform="scale(-1)" />
+  <use href="#strikje" />
+  <use href="#strikje" transform="scale(-1)" />
 </svg>
 </figure>
 
-We finish up the image by adding an `ellipse` element in the middle and a stroke for the rest.
+We maken de afbeelding af door een `ellipse` element in het midden toe te voegen en een kromme lijn voor het touwtje.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <defs>
-      <path fill="#B73A3B" id="ribbon" d="
+      <path fill="#B73A3B" id="strikje" d="
         M0,-20 Q28,-40,56,-45 C96,-48,96,48,56,45 Q28,40,0,20" 
       />
   </defs>
 
-  <use href="#ribbon" />
-  <use href="#ribbon" transform="scale(-1)" />
+  <use href="#strikje" />
+  <use href="#strikje" transform="scale(-1)" />
   <ellipse cx="0" cy="0" rx="20" ry="24" fill="#9C2D2A" />
   <path fill="none" stroke="#B73A3B" stroke-width="3" d="
     M0,20 Q40,40,30,60 Q20,80,40,90 
@@ -144,14 +144,14 @@ We finish up the image by adding an `ellipse` element in the middle and a stroke
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
   <defs>
-      <path fill="#B73A3B" id="ribbon" d="
+      <path fill="#B73A3B" id="strikje1" d="
         M0,-20 Q28,-40,56,-45 C96,-48,96,48,56,45 Q28,40,0,20" 
       />
   </defs>
 
   <rect x="-100" y="-200" width="200" height="400" fill="#F5F1EB"/>
-  <use href="#ribbon" />
-  <use href="#ribbon" transform="scale(-1)" />
+  <use href="#strikje1" />
+  <use href="#strikje1" transform="scale(-1)" />
   <ellipse cx="0" cy="0" rx="20" ry="24" fill="#9C2D2A" />
   <path fill="none" stroke="#B73A3B" stroke-width="3" d="
     M0,20 Q40,40,30,60 Q20,80,40,90 
