@@ -9,11 +9,11 @@ An arc is part of a circle or ellipse. Let's see how we can use arcs to draw thi
     }    
     .red-mark {
       stroke: #d1495b;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
     .green-mark {
       stroke: #234236;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
   </style>
 
@@ -162,11 +162,11 @@ For the finishing touches, we add a few straight lines inside this shape as mark
     }    
     .red-mark {
       stroke: #d1495b;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
     .green-mark {
       stroke: #234236;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
   </style>
 
@@ -191,11 +191,11 @@ For the finishing touches, we add a few straight lines inside this shape as mark
     }    
     .red-mark {
       stroke: #d1495b;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
     .green-mark {
       stroke: #234236;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
   </style>
 
