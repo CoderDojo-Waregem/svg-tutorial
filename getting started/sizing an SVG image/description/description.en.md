@@ -62,8 +62,6 @@ The image elements are drawn in a plane with a coordinate system where the $$x$$
   <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
   <text x="8" y="307" >y</text>
 
-  <circle cx="100" cy="100" r="50" fill="none" stroke="black" stroke-width="5" />
-
 </svg>
 </figure>
 
