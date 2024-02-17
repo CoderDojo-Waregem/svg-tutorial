@@ -1,224 +1,225 @@
-As the ultimate drawing challenge let’s draw a bear.
+Laten we als ultieme uitdaging een beer tekenen.
 
 <figure>
-<svg class="bear" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear {
+    .beer {
       background-color: #f5eed7;
     }
-    .bear .ear {
+    .beer .oor {
       fill: #e5c39c;
       stroke: white;
       stroke-width: 5;
     }    
-    .bear .face {
+    .beer .gezicht {
       fill: white;
     }
-    .bear .mouth {
+    .beer .mond {
       fill: none;
       stroke: black;
       stroke-width: 2;
     }
   </style>
-  <circle class="ear" cx="-40" cy="-50" r="18" />
-  <circle class="ear" cx="40" cy="-50" r="18" />
-  <rect class="face" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
+  <circle class="oor" cx="-40" cy="-50" r="18" />
+  <circle class="oor" cx="40" cy="-50" r="18" />
+  <rect class="gezicht" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
   <circle cx="20" cy="-30" r="3" />
   <circle cx="-20" cy="-30" r="3" />
-  <path class="snout" fill="#E5C39C" d="
+  <path class="snuit" fill="#E5C39C" d="
     M-30,0 C-30,-25,30,-25,30,0 
     L30,30 Q30,40,20,40 
     L-20,40 Q-30,40,-30,30" 
   />
-  <path class="nose" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
-  <path class="mouth" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
+  <path class="neus" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
+  <path class="mond" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
 </svg>
 </figure>
 
-We start with the ears. These are two circles that both have the `fill` and the `stroke` attributes set. We also defined a class on the SVG element to set the background color. Note, that here we set the regular `background-color` CSS property and not the `fill` attribute. Fill works with shapes, but the SVG element itself is not a shape.
+We beginnen met de oren. Dit zijn twee cirkels die beide de attributen `fill` en `stroke` hebben. We hebben ook een klasse gedefinieerd op het SVG-element om de achtergrondkleur in te stellen. Merk op dat we hier de gewone CSS-eigenschap  `background-color` instellen en niet het attribuut `fill`. Opvullen werkt met vormen, maar het SVG-element zelf is geen vorm.
+
 
 ```html
-<svg class="bear" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear {
+    .beer {
       background-color: #f5eed7;
     }
-    .bear .ear {
+    .beer .oor {
       fill: #e5c39c;
       stroke: white;
       stroke-width: 5;
     }    
   </style>
-  <circle class="ear" cx="-40" cy="-50" r="18" />
-  <circle class="ear" cx="40" cy="-50" r="18" />
+  <circle class="oor" cx="-40" cy="-50" r="18" />
+  <circle class="oor" cx="40" cy="-50" r="18" />
 </svg>
 ```
 
 <figure>
-<svg class="bear1" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer1" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear1 {
+    .beer1 {
       background-color: #f5eed7;
     }
-    .bear1 .ear {
+    .beer1 .oor {
       fill: #e5c39c;
       stroke: white;
       stroke-width: 5;
     }    
   </style>
-  <circle class="ear" cx="-40" cy="-50" r="18" />
-  <circle class="ear" cx="40" cy="-50" r="18" />
+  <circle class="oor" cx="-40" cy="-50" r="18" />
+  <circle class="oor" cx="40" cy="-50" r="18" />
 </svg>
 </figure>
 
-Then let’s add the face and the eyes. Here’s another thing we haven’t covered before. Earlier we saw that we can round rectangles with the `rx` property. We can be even more specific and set a different radius on the $$y$$-axis with the `ry` property. If the latter is not set, it falls back to the other one.
+Laten we dan het gezicht en de ogen toevoegen. Hier is nog iets wat we nog niet eerder hebben behandeld. Eerder zagen we dat we rechthoeken kunnen afronden met de `rx` eigenschap. We kunnen nog specifieker zijn en een andere straal instellen op de $$y$$-as met de `ry` eigenschap. Als de laatste niet is ingesteld, dan wordt hiervoor ook de waarde van de `rx` eigenschap gebruikt.
 
 ```html
-<svg class="bear" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear {
+    .beer {
       background-color: #f5eed7;
     }
-    .bear .face {
+    .beer .gezicht {
       fill: white;
     }
   </style>
-  <rect class="face" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
+  <rect class="gezicht" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
   <circle cx="20" cy="-30" r="3" />
   <circle cx="-20" cy="-30" r="3" />
 </svg>
 ```
 
 <figure>
-<svg class="bear2" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer2" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear2 {
+    .beer2 {
       background-color: #f5eed7;
     }
-    .bear2 .face {
+    .beer2 .gezicht {
       fill: white;
     }
   </style>
-  <rect class="face" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
+  <rect class="gezicht" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
   <circle cx="20" cy="-30" r="3" />
   <circle cx="-20" cy="-30" r="3" />
 </svg>
 </figure>
 
-Finally, we can add the nose and the mouth as a few paths as follows.
+Ten slotte kunnen we nog een paar paden toevoegen voor de neus en de mond.
 
 ```html
-<svg class="bear" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear {
+    .beer {
       background-color: #f5eed7;
     }
-    .bear .mouth {
+    .beer .mond {
       fill: none;
       stroke: black;
       stroke-width: 2;
     }
   </style>
-  <path class="snout" fill="#E5C39C" d="
+  <path class="snuit" fill="#E5C39C" d="
     M-30,0 C-30,-25,30,-25,30,0 
     L30,30 Q30,40,20,40 
     L-20,40 Q-30,40,-30,30" 
   />
-  <path class="nose" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
-  <path class="mouth" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
+  <path class="neus" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
+  <path class="mond" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
 </svg>
 ```
 
 <figure>
-<svg class="bear3" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer3" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear3 {
+    .beer3 {
       background-color: #f5eed7;
     }
-    .bear3 .mouth {
+    .beer3 .mond {
       fill: none;
       stroke: black;
       stroke-width: 2;
     }
   </style>
-  <path class="snout" fill="#E5C39C" d="
+  <path class="snuit" fill="#E5C39C" d="
     M-30,0 C-30,-25,30,-25,30,0 
     L30,30 Q30,40,20,40 
     L-20,40 Q-30,40,-30,30" 
   />
-  <path class="nose" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
-  <path class="mouth" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
+  <path class="neus" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
+  <path class="mond" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
 </svg>
 </figure>
 
-Once we put it all together we end up with the image on the bear.
+Als we alles samenvoegen, dan krijgen we de tekening van de beer.
 
 ```html
-<svg class="bear" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear {
+    .beer {
       background-color: #f5eed7;
     }
-    .bear .ear {
+    .beer .oor {
       fill: #e5c39c;
       stroke: white;
       stroke-width: 5;
     }    
-    .bear .face {
+    .beer .gezicht {
       fill: white;
     }
-    .bear .mouth {
+    .beer .mond {
       fill: none;
       stroke: black;
       stroke-width: 2;
     }
   </style>
-  <circle class="ear" cx="-40" cy="-50" r="18" />
-  <circle class="ear" cx="40" cy="-50" r="18" />
-  <rect class="face" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
+  <circle class="oor" cx="-40" cy="-50" r="18" />
+  <circle class="oor" cx="40" cy="-50" r="18" />
+  <rect class="gezicht" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
   <circle cx="20" cy="-30" r="3" />
   <circle cx="-20" cy="-30" r="3" />
-  <path class="snout" fill="#E5C39C" d="
+  <path class="snuit" fill="#E5C39C" d="
     M-30,0 C-30,-25,30,-25,30,0 
     L30,30 Q30,40,20,40 
     L-20,40 Q-30,40,-30,30" 
   />
-  <path class="nose" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
-  <path class="mouth" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
+  <path class="neus" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
+  <path class="mond" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
 </svg>
 ```
 
 <figure>
-<svg class="bear4" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg class="beer4" width="200px" height="200px" viewBox="-100 -100 200 200">
   <style>
-    .bear4 {
+    .beer4 {
       background-color: #f5eed7;
     }
-    .bear4 .ear {
+    .beer4 .oor {
       fill: #e5c39c;
       stroke: white;
       stroke-width: 5;
     }    
-    .bear4 .face {
+    .beer4 .gezicht {
       fill: white;
     }
-    .bear4 .mouth {
+    .beer4 .mond {
       fill: none;
       stroke: black;
       stroke-width: 2;
     }
   </style>
-  <circle class="ear" cx="-40" cy="-50" r="18" />
-  <circle class="ear" cx="40" cy="-50" r="18" />
-  <rect class="face" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
+  <circle class="oor" cx="-40" cy="-50" r="18" />
+  <circle class="oor" cx="40" cy="-50" r="18" />
+  <rect class="gezicht" x="-55" y="-60" width="110" height="120" rx="50" ry="30" />
   <circle cx="20" cy="-30" r="3" />
   <circle cx="-20" cy="-30" r="3" />
-  <path class="snout" fill="#E5C39C" d="
+  <path class="snuit" fill="#E5C39C" d="
     M-30,0 C-30,-25,30,-25,30,0 
     L30,30 Q30,40,20,40 
     L-20,40 Q-30,40,-30,30" 
   />
-  <path class="nose" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
-  <path class="mouth" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
+  <path class="neus" d="M-10,0 L10,0 C10,20,-10,20,-10,0" />
+  <path class="mond" d="M0,10 Q0,25,10,25 M0,10 Q0,25,-10,25" />
 </svg>
 </figure>

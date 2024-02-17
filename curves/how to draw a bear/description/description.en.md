@@ -151,7 +151,7 @@ Finally, we can add the nose and the mouth as a few paths as follows.
 </svg>
 </figure>
 
-Once we put it all together we end up with the image on the bear.
+Once we put it all together we end up with the image of the bear.
 
 ```html
 <svg class="bear" width="200px" height="200px" viewBox="-100 -100 200 200">
