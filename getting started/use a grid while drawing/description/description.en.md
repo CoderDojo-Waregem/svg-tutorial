@@ -49,7 +49,7 @@ Om afbeeldingselementen te plaatsen, is het handig om ook het assenstelsel bij d
       .rooster path {
         fill: none;
         stroke: royalblue;
-        stroke-width: 600;
+        stroke-width: 200;
       }
     </style>
       
@@ -76,7 +76,7 @@ Om afbeeldingselementen te plaatsen, is het handig om ook het assenstelsel bij d
       .rooster path {
         fill: none;
         stroke: royalblue;
-        stroke-width: 600;
+        stroke-width: 200;
       }
     </style>
       
