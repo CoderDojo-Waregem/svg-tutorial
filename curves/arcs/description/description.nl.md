@@ -9,11 +9,11 @@ Een boog is een deel van een cirkel of ellips. Laten we eens kijken hoe we bogen
     }    
     .red-mark {
       stroke: #d1495b;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
     .green-mark {
       stroke: #234236;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
   </style>
 
@@ -190,11 +190,11 @@ Voor de afwerking voegen we een paar rechte lijnen toe binnen deze vorm als mark
     }    
     .red-mark {
       stroke: #d1495b;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
     .green-mark {
       stroke: #234236;
-      stroke-width: 2.5px;
+      stroke-width: 2.5;
     }
   </style>
 
