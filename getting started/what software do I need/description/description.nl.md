@@ -10,7 +10,7 @@ Daar kan je de tekst voor de SVG-afbeelding rechtstreeks in het bestand `index.h
 
 ```html
 <svg width="100px" height="100px" viewBox="0 0 100 100">
-  <cirkel cx="50" cy="50" r="25" fill="red" />
+  <circle cx="50" cy="50" r="25" fill="red" />
 </svg>
 ```
 
