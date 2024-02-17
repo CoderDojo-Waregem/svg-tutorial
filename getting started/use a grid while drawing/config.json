@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Use a grid while drawing",
+      "nl": "Gebruik een rooster om te ontwerpen"
+    }
+  },
+  "labels": [
+
+  ]
+}
