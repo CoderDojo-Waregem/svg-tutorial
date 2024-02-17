@@ -1,4 +1,4 @@
-An arc is part of a circle or ellipse. Let's see how we can use arcs to draw this candy.
+Een boog is een deel van een cirkel of ellips. Laten we eens kijken hoe we bogen kunnen gebruiken om dit snoepje te tekenen.
 
 <figure>
 <svg width="200px" height="400px" viewBox="-100 -200 200 400">
@@ -30,17 +30,17 @@ An arc is part of a circle or ellipse. Let's see how we can use arcs to draw thi
 </svg>
 </figure>
 
-If you thought that cubic Béziers are the most complicated parts of an SVG then we have bad news for you. Arcs are way more complicated. The good news though, is that they are rarely used, and we won’t use them much in the upcoming examples either.
+Als je dacht dat kubische Béziers de meest ingewikkelde onderdelen van een SVG zijn, dan hebben we slecht nieuws voor je. Bogen zijn veel ingewikkelder. Het goede nieuws is echter dat ze zelden worden gebruikt, en we zullen ze in de komende voorbeelden ook niet veel gebruiken.
 
-### The different parameters of an arc
+### De verschillende parameters van een boog
 
-The arc to command has 7 parameters.
+Het boog-naar (*arc-to*; `A`) commando heeft 7 parameters.
 
 <pre>
-A rx ry rotation large-arc-flag sweep-flag x y
+A rx ry rotatie grote-boog-vlag veeg-vlag x y
 </pre>
 
-The last two parameters `(40, 40)` are still the endpoint of the arc. The first two define a horizontal and a vertical radius `(70, 70)`. If we draw a circle, those two values are the same.
+De laatste twee parameters `(40, 40)` zijn nog steeds het eindpunt van de boog. De eerste twee definiëren een horizontale en een verticale straal `(70, 70)`. Als we een cirkel tekenen, dan zijn deze twee waarden hetzelfde.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -55,8 +55,7 @@ The last two parameters `(40, 40)` are still the endpoint of the arc. The first 
 </svg>
 </figure>
 
-You might realize that even with the same starting point and endpoint, and the same radii, there can be four different variations. The 5th argument is a boolean flag, and we can use it to flip the arc the other way (now it changed to `1`).
-
+Je realiseert je misschien dat zelfs met hetzelfde begin- en eindpunt en dezelfde stralen er vier verschillende variaties kunnen zijn. Het 5e argument is een booleaanse vlag die we kunnen gebruiken om de boog de andere kant op te draaien (nu aangepast naar `1`).
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -71,7 +70,7 @@ You might realize that even with the same starting point and endpoint, and the s
 </svg>
 </figure>
 
-You might notice that in both cases, the arc ends up the shortest possible way with these parameters. It is also possible to go the long way and still keep the same start and endpoints, and the same radii. Then the 4th argument is another boolean flag that sets if we want to go the long way (now we also changed it to `1`). This also has two variations. You can mirror it, by flipping the 5th argument to the other value.
+Het zal je opvallen dat in beide gevallen de boog de kortst mogelijke weg aflegt met deze parameters. Het is ook mogelijk om de lange weg te nemen en toch dezelfde begin- en eindpunten en dezelfde stralen te behouden. Dan is het 4e argument nog een booleaanse vlag die aangeeft of we de lange weg willen nemen (nu hebben we die parameter aangepast naar `1`). Dit heeft ook twee variaties. Je kunt de boog spiegelen door het 5e argument om te keren naar de andere waarde.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -86,7 +85,7 @@ You might notice that in both cases, the arc ends up the shortest possible way w
 </svg>
 </figure>
 
-To complicate things even further, if we set the horizontal and vertical radii to two different values then we end up with an arc of an ellipse `(70, 40)`. Again, the same start and end points, and this also has 4 different variations.
+Om het nog ingewikkelder te maken, als we de horizontale en verticale stralen op twee verschillende waarden instellen, dan krijgen we een ellipsboog `(70, 40)`. Opnieuw dezelfde begin- en eindpunten, en ook deze heeft 4 verschillende variaties.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -101,7 +100,7 @@ To complicate things even further, if we set the horizontal and vertical radii t
 </svg>
 </figure>
 
-Finally, if we draw an ellipse we can also turn it by an angle. We can set this by the 3rd parameter (`30`). What makes things even more twisted, is that our imaginary ellipse is not rotated around its center, because this arc still has to maintain the same start and end points. In case we draw a circle, the rotation does not affect the arc.
+Ten slotte kunnen we, als we een ellips tekenen, deze ook draaien over een bepaalde een hoek. We kunnen dit instellen met de 3e parameter (`30`). Wat de dingen nog verdraaider maakt, is dat onze denkbeeldige ellips niet om zijn middelpunt wordt gedraaid, omdat deze boog nog steeds dezelfde begin- en eindpunten moet behouden. Als we een cirkel tekenen, heeft de rotatie geen invloed op de boog.
 
 ```html
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
@@ -116,11 +115,11 @@ Finally, if we draw an ellipse we can also turn it by an angle. We can set this 
 </svg>
 </figure>
 
-Click here for [an interactive demo](https://hunormarton.github.io/svg-curves){: target="_blank"} of arcs.
+Klik hier voor [een interactieve demo](https://hunormarton.github.io/svg-curves){: target="_blank"} van bogen.
 
-### Drawing a candy
+### Een snoepje tekenen
 
-Now after all these introductions we finally got to today’s example. We are only going to draw a simple arc in this one.
+Na al deze inleidingen zijn we eindelijk aangekomen bij het voorbeeld dat we wilden uitwerken. In dit voorbeeld gaan we alleen een eenvoudige boog tekenen.
 
 ```html
 <svg width="200px" height="400px" viewBox="-100 -200 200 400">
@@ -149,9 +148,9 @@ Now after all these introductions we finally got to today’s example. We are on
 </svg>
 </figure>
 
-To draw a candy, we draw a thick line that consists of a straight line and a half circle. Then we draw the same line again, with a slightly thinner stroke width. By setting two different colors for them, they will look as if one is the border of the other.
+Om een snoepje te tekenen, trekken we een dikke lijn die bestaat uit een rechte lijn en een halve cirkel. Daarna tekenen we dezelfde lijn opnieuw, met een iets dunnere lijndikte. Door er twee verschillende kleuren voor in te stellen, lijkt het alsof de ene de rand van de andere is.
 
-For the finishing touches, we add a few straight lines inside this shape as markings.
+Voor de afwerking voegen we een paar rechte lijnen toe binnen deze vorm als markeringen.
 
 ```html
 <svg width="200px" height="400px" viewBox="-100 -200 200 400">
