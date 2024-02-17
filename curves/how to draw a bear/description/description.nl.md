@@ -1,4 +1,4 @@
-Laten we als ultieme uitdaging een beer tekenen.
+Laten we als ultieme uitdaging eens een beer tekenen.
 
 <figure>
 <svg class="beer" width="200px" height="200px" viewBox="-100 -100 200 200">
