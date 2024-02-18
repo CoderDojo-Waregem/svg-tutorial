@@ -31,22 +31,22 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo1" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo1 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo1 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo1 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo1 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
@@ -90,27 +90,27 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo2" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo2 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo2 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo2 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo2 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    text.element {
+    #logo2 text.element {
       font-size: 20px;
       fill: green;
     }
@@ -165,27 +165,27 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo3" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo3 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo3 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo3 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo3 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    text.element {
+    #logo3 text.element {
       font-size: 20px;
       fill: green;
     }
@@ -245,27 +245,27 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo4" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo4 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo4 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo4 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo4 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    text.element {
+    #logo4 text.element {
       font-size: 20px;
       fill: green;
     }
@@ -327,27 +327,27 @@ De druppelvorm wordt gesloten door het punt $$(300, 0)$$ terug te verbinden met 
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo5" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo5 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo5 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo5 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo5 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    text.element {
+    #logo5 text.element {
       font-size: 20px;
       fill: green;
     }
@@ -410,27 +410,27 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo6" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo6 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo6 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo6 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo6 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    text.element {
+    #logo6 text.element {
       font-size: 20px;
       fill: green;
     }
@@ -488,27 +488,27 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo7" width="400px" height="400px" viewBox="-330 -320 640 640">
 
   <style>
-    text {
+    #logo7 text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
-    .coords { 
+    #logo7 .coords { 
       display: initial; 
     }
-    .coords .y-label {
+    #logo7 .coords .y-label {
       text-anchor: end;
     }
-    .coords .grid {
+    #logo7 .coords .grid {
       fill: none;
       stroke: royalblue;
       stroke-width: 600;
     }
-    text.element {
+    #logo7 text.element {
       font-size: 20px;
       fill: green;
     }
@@ -595,9 +595,9 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
 ```
 
 <figure>
-<svg width="400px" height="400px" viewBox="-310 -310 620 620">
+<svg id="logo8" width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
-    text {
+    #logo8 text {
       font-size: 240px;
       text-anchor: middle;
       dominant-baseline: middle;
