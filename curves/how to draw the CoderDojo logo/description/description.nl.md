@@ -84,7 +84,7 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
 </svg>
 </figure>
 
-Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met een straal van 600.
+Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met een straal van 300.
 
 ```html
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
@@ -246,7 +246,8 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
   <path fill="none" stroke="black" stroke-width="6" d="
     M0,-300
-    A150,150,0,0,1,0,0"
+    A150,150,0,0,1,0,0
+    A150,150,0,0,0,0,300"
   />
 </svg>
 ```
@@ -322,13 +323,14 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
 </svg>
 </figure>
 
-De druppelvorm wordt gesloten door het punt $$(300, 0)$$ terug te verbinden met het punt $$(-300, 0)$$ via een halve cirkel met straal 300.
+De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met het punt $$(0, -300)$$ via een halve cirkel met straal 300.
 
 ```html
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
   <path fill="none" stroke="black" stroke-width="6" d="
     M0,-300
+    A150,150,0,0,1,0,0
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
@@ -412,8 +414,9 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
 ```html
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
-  <path fill="black" d="
+  <path fill="black" stroke="none" d="
     M0,-300
+    A150,150,0,0,1,0,0
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
@@ -490,7 +493,7 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 ```html
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
-  <path fill="black" d="
+  <path fill="black" stroke="none" d="
     M0,-300
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
@@ -598,7 +601,7 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
     }
   </style>
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
-  <path fill="black" d="
+  <path fill="black" stroke="none" d="
     M0,-300
     A150,150,0,0,1,0,0
     A150,150,0,0,0,0,300
@@ -621,7 +624,7 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
   </style>
   <rect x="-310" y="-310" width="620" height="620" fill="#F5F1EB"/>
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
-  <path fill="black" d="
+  <path fill="black" stroke="none" d="
     M0,-300
     A150,150,0,0,1,0,0
     A150,150,0,0,0,0,300
