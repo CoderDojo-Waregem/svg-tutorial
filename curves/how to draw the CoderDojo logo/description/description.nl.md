@@ -10,6 +10,7 @@ Nu we geleerd hebben hoe we bogen kunnen tekenen, zijn we klaar om het CoderDojo
       font-family: OCR A, consolas, monospace;
     }
   </style>
+  <rect x="-310" y="-310" width="620" height="620" fill="#F5F1EB"/>
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
   <path fill="black" d="
     M0,-300
@@ -118,6 +119,8 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
     }
   </style>
     
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -193,6 +196,8 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
     }
   </style>
     
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -273,6 +278,8 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
     }
   </style>
     
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -355,6 +362,8 @@ De druppelvorm wordt gesloten door het punt $$(300, 0)$$ terug te verbinden met 
     }
   </style>
     
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -438,6 +447,8 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
     }
   </style>
     
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -516,6 +527,8 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     }
   </style>
     
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -606,6 +619,7 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
       font-family: OCR A, consolas, monospace;
     }
   </style>
+  <rect x="-310" y="-310" width="620" height="620" fill="#F5F1EB"/>
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
   <path fill="black" d="
     M0,-300
