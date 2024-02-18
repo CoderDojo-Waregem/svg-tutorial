@@ -508,6 +508,12 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 
   <style>
     #logo7 text {
+      font-size: 240px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      font-family: OCR A, consolas, monospace;
+    }
+    #logo7 .coords text {
       font-family: consolas,monospace;
       font-size: 10px;
       text-anchor: middle;
@@ -525,6 +531,7 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
       stroke-width: 600;
     }
     #logo7 text.element {
+      font-family: consolas,monospace;
       font-size: 20px;
       fill: green;
     }
