@@ -15,3 +15,5 @@ Put the text for the SVG image directly into the file `index.html`. There is no 
 ```
 
 If you have created a nice SVG image, don't forget to save it to your computer in a text file with the extension `.svg`!
+
+[SVG Viewer](https://www.svgviewer.dev/){: target="_blank"} is another online editor made specifically for designing SVG images. Conveniently, that editor indicates the border of the SVG image with a dashed line. You can also easily load images from your computer and save them to your computer.

@@ -14,4 +14,6 @@ Daar kan je de tekst voor de SVG-afbeelding rechtstreeks in het bestand `index.h
 </svg>
 ```
 
-Als je een mooie SVG-afbeelding gemaakt hebt, vergeet die dan ook niet  op je computer op te slaan in een tekstbestand met de extensie `.svg`!
+Als je een mooie SVG-afbeelding gemaakt hebt, vergeet die dan ook niet op je computer op te slaan in een tekstbestand met de extensie `.svg`!
+
+[SVG Viewer](https://www.svgviewer.dev/){: target="_blank"} is een andere online editor die specifiek gemaakt is om SVG-afbeeldingen te ontwerpen. Handig is dat die editor de rand van de SVG-afbeelding aangeeft met een stippellijn. Je kunt ook makkelijk afbeeldingen ophalen vanaf je computer en opslaan op je computer.
