@@ -1,1 +1,1 @@
-source: `[https://steamcoded.org/lessons/YinYangLessonPlan.pdf](https://steamcoded.org/lessons/YinYangLessonPlan.pdf){: target="_blank"}`
+source: [https://steamcoded.org/lessons/YinYangLessonPlan.pdf](https://steamcoded.org/lessons/YinYangLessonPlan.pdf){: target="_blank"}
