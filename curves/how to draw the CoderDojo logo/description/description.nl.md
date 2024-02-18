@@ -579,12 +579,12 @@ Je zult echter merken dat bovenstaande code nog niet het gewenste resultaat geef
 
 ```html
 <style>
-text {
-  font-size: 240px;
-  text-anchor: middle;
-  dominant-baseline: middle;
-  font-family: OCR A, consolas, monospace;
-}
+  text {
+    font-size: 240px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    font-family: OCR A, consolas, monospace;
+  }
 </style>
 ```
 
