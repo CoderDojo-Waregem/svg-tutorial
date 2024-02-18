@@ -53,6 +53,8 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
     }
   </style>
     
+  <rect x="-330" y="-320" width="640" height="640" fill="#F5F1EB"/>
+
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
