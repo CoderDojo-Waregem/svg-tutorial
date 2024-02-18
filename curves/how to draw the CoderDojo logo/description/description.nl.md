@@ -31,7 +31,7 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
 ```
 
 <figure>
-<svg id="logo1" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo1" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo1 text {
@@ -53,7 +53,7 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
     }
   </style>
     
-  <rect x="-330" y="-320" width="640" height="640" fill="#F5F1EB"/>
+  <rect x="-330" y="-320" width="650" height="640" fill="#F5F1EB"/>
 
   <g class="coords">
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="0.2,9.6,0.2,0" />
@@ -92,7 +92,7 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
 ```
 
 <figure>
-<svg id="logo2" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo2" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo2 text {
@@ -167,7 +167,7 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
 ```
 
 <figure>
-<svg id="logo3" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo3" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo3 text {
@@ -247,7 +247,7 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
 ```
 
 <figure>
-<svg id="logo4" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo4" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo4 text {
@@ -329,7 +329,7 @@ De druppelvorm wordt gesloten door het punt $$(300, 0)$$ terug te verbinden met 
 ```
 
 <figure>
-<svg id="logo5" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo5" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo5 text {
@@ -412,7 +412,7 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
 ```
 
 <figure>
-<svg id="logo6" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo6" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo6 text {
@@ -490,7 +490,7 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 ```
 
 <figure>
-<svg id="logo7" width="400px" height="400px" viewBox="-330 -320 640 640">
+<svg id="logo7" width="400px" height="400px" viewBox="-330 -320 650 640">
 
   <style>
     #logo7 text {
