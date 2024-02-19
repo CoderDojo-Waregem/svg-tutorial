@@ -68,7 +68,7 @@ Most countries have flags consisting of rectangles, triangles, lines and circles
 ### Poké ball
 
 <figure>
-<svg id="pokemon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px" viewBox="-120 -120 240 240">
+<svg id="pokemon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px" viewBox="-100 -100 200 200">
 
   <defs>
     <radialGradient id="licht" cx="0.25" cy="0.20" r="0.35">
