@@ -4,7 +4,7 @@ Nu we geleerd hebben hoe we bogen kunnen tekenen, zijn we klaar om het CoderDojo
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
     text {
-      font-size: 240px;
+      font-size: 240;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
@@ -37,7 +37,7 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
   <style>
     #logo1 text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -98,7 +98,7 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
   <style>
     #logo2 text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -114,7 +114,7 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
       stroke-width: 600;
     }
     #logo2 text.element {
-      font-size: 20px;
+      font-size: 20;
       fill: green;
     }
   </style>
@@ -175,7 +175,7 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
   <style>
     #logo3 text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -191,7 +191,7 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
       stroke-width: 600;
     }
     #logo3 text.element {
-      font-size: 20px;
+      font-size: 20;
       fill: green;
     }
   </style>
@@ -258,7 +258,7 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
   <style>
     #logo4 text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -274,7 +274,7 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
       stroke-width: 600;
     }
     #logo4 text.element {
-      font-size: 20px;
+      font-size: 20;
       fill: green;
     }
   </style>
@@ -343,7 +343,7 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
   <style>
     #logo5 text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -359,7 +359,7 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
       stroke-width: 600;
     }
     #logo5 text.element {
-      font-size: 20px;
+      font-size: 20;
       fill: green;
     }
   </style>
@@ -429,7 +429,7 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
   <style>
     #logo6 text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -445,7 +445,7 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
       stroke-width: 600;
     }
     #logo6 text.element {
-      font-size: 20px;
+      font-size: 20;
       fill: green;
     }
   </style>
@@ -508,14 +508,14 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 
   <style>
     #logo7 text {
-      font-size: 240px;
+      font-size: 240;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
     }
     #logo7 .coords text {
       font-family: consolas,monospace;
-      font-size: 10px;
+      font-size: 10;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -532,7 +532,7 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     }
     #logo7 text.element {
       font-family: consolas,monospace;
-      font-size: 20px;
+      font-size: 20;
       fill: green;
     }
   </style>
@@ -587,7 +587,7 @@ Je zult echter merken dat bovenstaande code nog niet het gewenste resultaat geef
 ```html
 <style>
   text {
-    font-size: 240px;
+    font-size: 240;
     text-anchor: middle;
     dominant-baseline: middle;
     font-family: OCR A, consolas, monospace;
@@ -601,7 +601,7 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
     text {
-      font-size: 240px;
+      font-size: 240;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
@@ -623,7 +623,7 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
 <svg id="logo8" width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
     #logo8 text {
-      font-size: 240px;
+      font-size: 240;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
