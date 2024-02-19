@@ -567,8 +567,8 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
-  <text x="0" y="-128" fill="black">0</text>
-  <text x="0" y="172" fill="white">1</text>
+  <text x="0" y="-128" fill="black" font-size="240">0</text>
+  <text x="0" y="172" fill="white" font-size="240">1</text>
 
   <circle cx="0" cy="-150" r="5" fill="green" stroke="none" />
   <circle cx="0" cy="150" r="5" fill="green" stroke="none" />
