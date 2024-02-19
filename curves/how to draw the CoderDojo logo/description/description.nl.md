@@ -230,7 +230,7 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
   />
 
   <circle cx="0" cy="-300" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="-275">(-300,0)</text>
+  <text class="element" x="0" y="-275">(0,-300)</text>
   <circle cx="0" cy="0" r="5" fill="green" stroke="none" />
   <text class="element" x="0" y="-25">(0,0)</text>
   <path d="M0,-150 l5,2 v-4 l-5,2 h150 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
@@ -314,7 +314,7 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
   />
 
   <circle cx="0" cy="300" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="275">(300,0)</text>
+  <text class="element" x="0" y="275">(0,300)</text>
   <circle cx="0" cy="0" r="5" fill="green" stroke="none" />
   <text class="element" x="0" y="-25">(0,0)</text>
   <path d="M-150,150 l5,2 v-4 l-5,2 h150 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
@@ -400,9 +400,9 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
   />
 
   <circle cx="0" cy="300" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="275">(300,0)</text>
+  <text class="element" x="0" y="275">(0,300)</text>
   <circle cx="0" cy="-300" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="-275">(-300,0)</text>
+  <text class="element" x="0" y="-275">(0,-300)</text>
   <path d="M0,20 l5,2 v-4 l-5,2 h300 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
   <text class="element" x="150" y="34">300</text>
 
