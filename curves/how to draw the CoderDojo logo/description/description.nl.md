@@ -376,9 +376,9 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
     <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
     <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8">x</text>
+    <text x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307">y</text>
+    <text x="8" y="307" font-size="10">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
