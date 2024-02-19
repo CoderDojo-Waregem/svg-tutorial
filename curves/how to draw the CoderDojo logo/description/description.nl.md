@@ -572,8 +572,8 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 
   <circle cx="0" cy="-150" r="5" fill="green" stroke="none" />
   <circle cx="0" cy="150" r="5" fill="green" stroke="none" />
-  <text x="-55" y="-150" font-size="240">(0,-150)</text>
-  <text x="-55" y="150" font-size="240">(0,150)</text>
+  <text class="element" x="-55" y="-150" font-size="20">(0,-150)</text>
+  <text class="element" x="-55" y="150" font-size="20">(0,150)</text>
 
 </svg>
 </figure>
