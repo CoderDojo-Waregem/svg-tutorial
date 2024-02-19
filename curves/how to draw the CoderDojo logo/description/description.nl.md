@@ -4,7 +4,6 @@ Nu we geleerd hebben hoe we bogen kunnen tekenen, zijn we klaar om het CoderDojo
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
     text {
-      font-size: 240px;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
@@ -18,8 +17,8 @@ Nu we geleerd hebben hoe we bogen kunnen tekenen, zijn we klaar om het CoderDojo
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
-  <text x="0" y="-128" fill="black">0</text>
-  <text x="0" y="172" fill="white">1</text>
+  <text x="0" y="-128" fill="black" font-size="240">0</text>
+  <text x="0" y="172" fill="white" font-size="240">1</text>
 </svg>
 </figure>
 
@@ -488,7 +487,7 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
 </svg>
 </figure>
 
-Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats zetten. Hiervoor kunnen we het `text`-element gebruiken om een zwart opgevuld cijfer `0` op positie $$(0, -150)$$ te zetten en een wit opgevuld cijfer `1` op positie $$(0, 150)$$.
+Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats zetten. Hiervoor kunnen we het `text`-element gebruiken om een zwart opgevuld cijfer `0` op positie $$(0, -150)$$ te zetten en een wit opgevuld cijfer `1` op positie $$(0, 150)$$. We stellen de grootte van de tekst (`font-size`) ook in op 240.
 
 ```html
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
@@ -498,8 +497,8 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
-  <text x="0" y="-150" fill="black">0</text>
-  <text x="0" y="150" fill="white">1</text>
+  <text x="0" y="-150" fill="black" font-size="240">0</text>
+  <text x="0" y="150" fill="white" font-size="240">1</text>
 </svg>
 ```
 
@@ -508,7 +507,6 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 
   <style>
     #logo7 text {
-      font-size: 240px;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
@@ -576,18 +574,17 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 
   <circle cx="0" cy="-150" r="5" fill="green" stroke="none" />
   <circle cx="0" cy="150" r="5" fill="green" stroke="none" />
-  <text class="element" x="-55" y="-150">(0,-150)</text>
-  <text class="element" x="-55" y="150">(0,150)</text>
+  <text class="element" x="-55" y="-150" font-size="240">(0,-150)</text>
+  <text class="element" x="-55" y="150" font-size="240">(0,150)</text>
 
 </svg>
 </figure>
 
-Je zult echter merken dat bovenstaande code nog niet het gewenste resultaat geeft. We moeten immers nog enkele eigenschappen van de tekst instellen. Omdat die voor beide cijfers hetzelfde zijn, zullen we een `style`-element gebruiken om de CSS-eigenschappen van alle tekst in de figuur in één keer in te stellen. We stellen de grootte van de tekst (`font-size`) in op 240 pixels en als lettertype (`font-family`) kiezen we voor `OCR A`. Voor computers waarop dit lettertype niet geïnstalleerd is, vallen we achtereenvolgens terug op het lettertype `consolas` en daarna op het standaard `monospace` lettertype.
+Je zult echter merken dat bovenstaande code nog niet het gewenste resultaat geeft. We moeten immers nog enkele eigenschappen van de tekst instellen. Omdat die voor beide cijfers hetzelfde zijn, zullen we een `style`-element gebruiken om de CSS-eigenschappen van alle tekst in de figuur in één keer in te stellen. We stellen het lettertype (`font-family`) van de tekst (`font-size`) in op `OCR A`. Voor computers waarop dit lettertype niet geïnstalleerd is, vallen we achtereenvolgens terug op het lettertype `consolas` en daarna op het standaard `monospace` lettertype.
 
 ```html
 <style>
   text {
-    font-size: 240px;
     text-anchor: middle;
     dominant-baseline: middle;
     font-family: OCR A, consolas, monospace;
@@ -601,7 +598,6 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
 <svg width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
     text {
-      font-size: 240px;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
@@ -614,8 +610,8 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
-  <text x="0" y="-128" fill="black">0</text>
-  <text x="0" y="172" fill="white">1</text>
+  <text x="0" y="-128" fill="black" font-size="240">0</text>
+  <text x="0" y="172" fill="white" font-size="240">1</text>
 </svg>
 ```
 
@@ -623,7 +619,6 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
 <svg id="logo8" width="400px" height="400px" viewBox="-310 -310 620 620">
   <style>
     #logo8 text {
-      font-size: 240px;
       text-anchor: middle;
       dominant-baseline: middle;
       font-family: OCR A, consolas, monospace;
@@ -637,7 +632,7 @@ Normaal gezien ligt het ankerpunt waar de tekst geplaatst wordt in de linkerbove
     A150,150,0,0,0,0,300
     A300,300,0,0,0,0,-300" 
   />
-  <text x="0" y="-128" fill="black">0</text>
-  <text x="0" y="172" fill="white">1</text>
+  <text x="0" y="-128" fill="black" font-size="240">0</text>
+  <text x="0" y="172" fill="white" font-size="240">1</text>
 </svg>
 </figure>
