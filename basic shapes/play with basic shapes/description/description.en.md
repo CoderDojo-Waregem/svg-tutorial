@@ -5,7 +5,7 @@ Now that you have mastered the basic shapes, it is time to make your own drawing
 Most countries have flags consisting of rectangles, triangles, lines and circles. Below you can see some possibilities in advance. Do you know which countries those flags belong to? Find some flags of your own that you can draw.
 
 <figure>
-<svg width="550px" height="400px" viewBox="0 0 1100 800">
+<svg id="flags" xmlns="http://www.w3.org/2000/svg" version="1.1" width="550px" height="400px" viewBox="0 0 1100 800">
 
   <rect x="0" y="0" width="1100" height="800" fill="#F1DBC3" />
 
@@ -68,7 +68,7 @@ Most countries have flags consisting of rectangles, triangles, lines and circles
 ### Poké ball
 
 <figure>
-<svg id="pokemon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px" viewBox="-100 -100 200 200">
+<svg id="pokemon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="400px" height="400px" viewBox="-100 -100 200 200">
 
   <defs>
     <radialGradient id="licht" cx="0.25" cy="0.20" r="0.35">
@@ -125,7 +125,7 @@ Most countries have flags consisting of rectangles, triangles, lines and circles
 ### Ladybug
 
 <figure>
-<svg id="ladybug" xmlns="http://www.w3.org/2000/svg" width="200px" version="1.1" height="200px" viewBox="-100 -100 200 200">
+<svg id="ladybug" xmlns="http://www.w3.org/2000/svg" version="1.1" width="400px"  height="400px" viewBox="-100 -100 200 200">
 
   <defs>
     <clipPath id="lichaam-contour">
