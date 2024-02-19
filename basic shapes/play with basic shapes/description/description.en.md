@@ -131,7 +131,7 @@ Most countries have flags consisting of rectangles, triangles, lines and circles
     <clipPath id="lichaam-contour">
       <circle cx="0" cy="40" r="60" />
     </clipPath>
-    <radialGradient id="licht" cx="0.35" cy="0.70" r="0.35">
+    <radialGradient id="ladybug-light" cx="0.35" cy="0.70" r="0.35">
       <stop offset="0%" stop-color="rgb(255,255,255,0.75)" />
       <stop offset="100%" stop-color="rgb(255,0,0,0.0)" />
     </radialGradient>
@@ -155,7 +155,7 @@ Most countries have flags consisting of rectangles, triangles, lines and circles
 
   <path stroke="black" stroke-width="3" d="M0,-27 Q0,-50,-40,-60" fill="none" />
   <path stroke="black" stroke-width="3" d="M0,-27 Q0,-50,40,-60" fill="none" />
-  <circle cx="0" cy="40" r="60" fill="url(#licht)"/>
+  <circle cx="0" cy="40" r="60" fill="url(#ladybug-light)"/>
   </g>
   </g>
 
