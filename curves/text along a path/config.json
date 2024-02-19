@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Text along a path",
+      "nl": "Tekst langs een pad"
+    }
+  },
+  "labels": [
+
+  ]
+}

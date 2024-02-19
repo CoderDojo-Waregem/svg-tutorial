@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Play with basic shapes",
+      "nl": "Speel met basisvormen"
+    }
+  },
+  "labels": [
+
+  ]
+}

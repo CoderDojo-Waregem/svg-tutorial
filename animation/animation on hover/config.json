@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Animation on hover",
+      "nl": "Animatie bij zweven"
+    }
+  },
+  "labels": [
+
+  ]
+}

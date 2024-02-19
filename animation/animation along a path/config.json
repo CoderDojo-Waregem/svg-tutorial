@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Animation along a path",
+      "nl": "Animatie langs een pad"
+    }
+  },
+  "labels": [
+
+  ]
+}
