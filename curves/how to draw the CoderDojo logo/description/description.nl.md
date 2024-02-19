@@ -513,7 +513,6 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     }
     #logo7 .coords text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -530,7 +529,6 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     }
     #logo7 text.element {
       font-family: consolas,monospace;
-      font-size: 20px;
       fill: green;
     }
   </style>
@@ -557,9 +555,9 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
     <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8" font-size="5">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307" font-size="5">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
@@ -574,8 +572,8 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
 
   <circle cx="0" cy="-150" r="5" fill="green" stroke="none" />
   <circle cx="0" cy="150" r="5" fill="green" stroke="none" />
-  <text class="element" x="-55" y="-150" font-size="240">(0,-150)</text>
-  <text class="element" x="-55" y="150" font-size="240">(0,150)</text>
+  <text x="-55" y="-150" font-size="240">(0,-150)</text>
+  <text x="-55" y="150" font-size="240">(0,150)</text>
 
 </svg>
 </figure>
