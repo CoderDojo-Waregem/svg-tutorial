@@ -36,7 +36,6 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
   <style>
     #logo1 text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -60,24 +59,24 @@ We werken met een kijkvenster met een breedte en hoogte van 620 dat de oorsprong
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307" font-size="10">y</text>
   </g>
 
 </svg>
@@ -97,7 +96,6 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
   <style>
     #logo2 text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -113,7 +111,6 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
       stroke-width: 600;
     }
     #logo2 text.element {
-      font-size: 20px;
       fill: green;
     }
   </style>
@@ -125,33 +122,33 @@ Eerst tekenen we een cirkel waarvan het middelpunt in de oorsprong ligt en met e
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307" font-size="10">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" />
   <line x1="0" y1="0" x2="0" y2="20" stroke="black" stroke-width="1" stroke-dasharray="2,2"/>
   <line x1="300" y1="0" x2="300" y2="20" stroke="black" stroke-width="1" stroke-dasharray="2,2"/>
   <circle cx="0" cy="0" r="5" fill="green" stroke="none" />
-  <text class="element" x="-36" y="0">(0,0)</text>
+  <text class="element" x="-36" y="0" font-size="20">(0,0)</text>
   <path d="M0,20 l5,2 v-4 l-5,2 h300 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
-  <text class="element" x="150" y="34">300</text>
+  <text class="element" x="150" y="34" font-size="20">300</text>
 
 </svg>
 </figure>
@@ -174,7 +171,6 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
   <style>
     #logo3 text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -190,7 +186,6 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
       stroke-width: 600;
     }
     #logo3 text.element {
-      font-size: 20px;
       fill: green;
     }
   </style>
@@ -202,24 +197,24 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307" font-size="10">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
@@ -231,9 +226,9 @@ Nu komt het moeilijkste deel: de zwarte druppelvorm. Als je die goed analyseert,
   <circle cx="0" cy="-300" r="5" fill="green" stroke="none" />
   <text class="element" x="0" y="-275">(0,-300)</text>
   <circle cx="0" cy="0" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="-25">(0,0)</text>
+  <text class="element" x="0" y="-25" font-size="20">(0,0)</text>
   <path d="M0,-150 l5,2 v-4 l-5,2 h150 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
-  <text class="element" x="75" y="-130">150</text>
+  <text class="element" x="75" y="-130" font-size="20">150</text>
 
 </svg>
 </figure>
@@ -257,7 +252,6 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
   <style>
     #logo4 text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -273,7 +267,6 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
       stroke-width: 600;
     }
     #logo4 text.element {
-      font-size: 20px;
       fill: green;
     }
   </style>
@@ -285,24 +278,24 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307" font-size="10">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
@@ -315,9 +308,9 @@ We breiden het pad uit met een tweede halve cirkel met een straal van 150 die st
   <circle cx="0" cy="300" r="5" fill="green" stroke="none" />
   <text class="element" x="0" y="275">(0,300)</text>
   <circle cx="0" cy="0" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="-25">(0,0)</text>
+  <text class="element" x="0" y="-25" font-size="20">(0,0)</text>
   <path d="M-150,150 l5,2 v-4 l-5,2 h150 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
-  <text class="element" x="-75" y="130">150</text>
+  <text class="element" x="-75" y="130" font-size="20">150</text>
 
 </svg>
 </figure>
@@ -342,7 +335,6 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
   <style>
     #logo5 text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -358,7 +350,6 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
       stroke-width: 600;
     }
     #logo5 text.element {
-      font-size: 20px;
       fill: green;
     }
   </style>
@@ -370,24 +361,24 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
@@ -401,9 +392,9 @@ De druppelvorm wordt gesloten door het punt $$(0, 300)$$ terug te verbinden met 
   <circle cx="0" cy="300" r="5" fill="green" stroke="none" />
   <text class="element" x="0" y="275">(0,300)</text>
   <circle cx="0" cy="-300" r="5" fill="green" stroke="none" />
-  <text class="element" x="0" y="-275">(0,-300)</text>
+  <text class="element" x="0" y="-275" font-size="20">(0,-300)</text>
   <path d="M0,20 l5,2 v-4 l-5,2 h300 l-5,-2 v4 l5,-2" stroke="green" stroke-width="1" fill="green" />
-  <text class="element" x="150" y="34">300</text>
+  <text class="element" x="150" y="34" font-size="20">300</text>
 
 </svg>
 </figure>
@@ -428,7 +419,6 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
   <style>
     #logo6 text {
       font-family: consolas,monospace;
-      font-size: 10px;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -444,7 +434,6 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
       stroke-width: 600;
     }
     #logo6 text.element {
-      font-size: 20px;
       fill: green;
     }
   </style>
@@ -456,24 +445,24 @@ In plaats van de druppelvorm een zwarte rand te geven, kunnen we die nu een zwar
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" >x</text>
+    <text x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" >y</text>
+    <text x="8" y="307" font-size="10">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
@@ -540,24 +529,24 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="0.2,9.6,0.2,0" />
     <path class="grid" d="M-300,0 L300,0" stroke-dasharray="1,98,1,0" />
     <path class="grid" d="M0,-300 L0,300" stroke-dasharray="1,98,1,0" />
-    <text class="x-label" x="-300" y="-310" fill="black" font-size="5">-300</text>
-    <text class="x-label" x="-200" y="-310" fill="black" font-size="5">-200</text>
-    <text class="x-label" x="-100" y="-310" fill="black" font-size="5">-100</text>
-    <text class="x-label" x="0" y="-310" fill="black" font-size="5">0</text>
-    <text class="x-label" x="100" y="-310" fill="black" font-size="5">100</text>
-    <text class="x-label" x="200" y="-310" fill="black" font-size="5">200</text>
-    <text class="x-label" x="300" y="-310" fill="black" font-size="5">300</text>
-    <text class="y-label" x="-308" y="-300" fill="black" font-size="5">-300</text>
-    <text class="y-label" x="-308" y="-200" fill="black" font-size="5">-200</text>
-    <text class="y-label" x="-308" y="-100" fill="black" font-size="5">-100</text>
-    <text class="y-label" x="-308" y="0" fill="black" font-size="5">0</text>
-    <text class="y-label" x="-308" y="100" fill="black" font-size="5">100</text>
-    <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
-    <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
+    <text class="x-label" x="-300" y="-310" fill="black" font-size="10">-300</text>
+    <text class="x-label" x="-200" y="-310" fill="black" font-size="10">-200</text>
+    <text class="x-label" x="-100" y="-310" fill="black" font-size="10">-100</text>
+    <text class="x-label" x="0" y="-310" fill="black" font-size="10">0</text>
+    <text class="x-label" x="100" y="-310" fill="black" font-size="10">100</text>
+    <text class="x-label" x="200" y="-310" fill="black" font-size="10">200</text>
+    <text class="x-label" x="300" y="-310" fill="black" font-size="10">300</text>
+    <text class="y-label" x="-308" y="-300" fill="black" font-size="10">-300</text>
+    <text class="y-label" x="-308" y="-200" fill="black" font-size="10">-200</text>
+    <text class="y-label" x="-308" y="-100" fill="black" font-size="10">-100</text>
+    <text class="y-label" x="-308" y="0" fill="black" font-size="10">0</text>
+    <text class="y-label" x="-308" y="100" fill="black" font-size="10">100</text>
+    <text class="y-label" x="-308" y="200" fill="black" font-size="10">200</text>
+    <text class="y-label" x="-308" y="300" fill="black" font-size="10">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text class="element" x="307" y="8" font-size="5">x</text>
+    <text class="element" x="307" y="8" font-size="10">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text class="element" x="8" y="307" font-size="5">y</text>
+    <text class="element" x="8" y="307" font-size="10">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
