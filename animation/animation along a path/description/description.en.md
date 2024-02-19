@@ -1,9 +1,9 @@
 Another fun use of paths is to create animation paths.
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animation" width="400px" height="200px" viewBox="-200 -100 400 200">
   <style>
-    .sleigh {
+    #animation .sleigh {
       offset-path: path(
         "M-220,80 L-90,80 Q60,80,60,-10 A50,50,0,0,0,-60,-10 Q-60,80,90,80 L220,80"
       );
@@ -33,7 +33,7 @@ This method is not SVG only. We are using the `offset-path` CSS property here th
 To break this down into two parts, first, we have the track. We define this as a single path.
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animation1" width="400px" height="200px" viewBox="-200 -100 400 200">
   <rect x="-200" y="-100" width="400" height="200" fill="#F5F1EB"/>
   <path stroke="#E0CEB9" stroke-width="4" fill="none"
     d="M-200,80 L-80,80 Q80,80,70,-10 A70,70,0,0,0,-70,-10 Q-80,80,80,80 L200,80"
@@ -44,7 +44,7 @@ To break this down into two parts, first, we have the track. We define this as a
 And then we have a sled, that is made out of two different paths grouped together.
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animation2" width="400px" height="200px" viewBox="-200 -100 400 200">
   <rect x="-200" y="-100" width="400" height="200" fill="#F5F1EB"/>
   <g class="sleigh" fill="none">
     <path stroke="#AF6455" stroke-width="5"
@@ -86,9 +86,9 @@ Neither of these are very interesting on their own. What is new, is that we can 
 ```
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animation3" width="400px" height="200px" viewBox="-200 -100 400 200">
   <style>
-    .sleigh {
+    #animation3 .sleigh {
       offset-path: path(
         "M-220,80 L-90,80 Q60,80,60,-10 A50,50,0,0,0,-60,-10 Q-60,80,90,80 L220,80"
       );

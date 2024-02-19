@@ -1,9 +1,9 @@
 Het is ook cool om paden te gebruiken voor *animatiepaden*.
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animatie" width="400px" height="200px" viewBox="-200 -100 400 200">
   <style>
-    .sleigh {
+    #animatie .sleigh {
       offset-path: path(
         "M-220,80 L-90,80 Q60,80,60,-10 A50,50,0,0,0,-60,-10 Q-60,80,90,80 L220,80"
       );
@@ -33,7 +33,7 @@ Deze methode kan niet alleen voor SVG gebruikt worden. We gebruiken hier de CSS-
 Om dit in twee delen op te splitsen, tekenen we eerst de baan. We definiëren dit als één enkel pad.
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animatie1" width="400px" height="200px" viewBox="-200 -100 400 200">
   <rect x="-200" y="-100" width="400" height="200" fill="#F5F1EB"/>
   <path stroke="#E0CEB9" stroke-width="4" fill="none"
     d="M-200,80 L-80,80 Q80,80,70,-10 A70,70,0,0,0,-70,-10 Q-80,80,80,80 L200,80"
@@ -44,7 +44,7 @@ Om dit in twee delen op te splitsen, tekenen we eerst de baan. We definiëren di
 Dan tekenen we ook nog een slee, die samengesteld is uit twee verschillende paden die samen één groep vormen.
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animatie2" width="400px" height="200px" viewBox="-200 -100 400 200">
   <rect x="-200" y="-100" width="400" height="200" fill="#F5F1EB"/>
   <g class="sleigh" fill="none">
     <path stroke="#AF6455" stroke-width="5"
@@ -86,9 +86,9 @@ Geen van beide zijn op zichzelf erg interessant. Wat wel nieuw is, is dat we een
 ```
 
 <figure>
-<svg width="400px" height="200px" viewBox="-200 -100 400 200">
+<svg id="animatie3" width="400px" height="200px" viewBox="-200 -100 400 200">
   <style>
-    .sleigh {
+    #animatie3 .sleigh {
       offset-path: path(
         "M-220,80 L-90,80 Q60,80,60,-10 A50,50,0,0,0,-60,-10 Q-60,80,90,80 L220,80"
       );
