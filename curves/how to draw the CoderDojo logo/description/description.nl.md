@@ -555,9 +555,9 @@ Het laatste dat we nog moeten doen is de cijfers `0` en `1` op de juiste plaats 
     <text class="y-label" x="-308" y="200" fill="black" font-size="5">200</text>
     <text class="y-label" x="-308" y="300" fill="black" font-size="5">300</text>
     <path d="M-305,0 L310,0 L305,-2 L305,2 L310,0" stroke="black" stroke-width="1" fill="black" />
-    <text x="307" y="8" font-size="5">x</text>
+    <text class="element" x="307" y="8" font-size="5">x</text>
     <path d="M0,-305 L0,310 L-2,305 L2,305 L0,310" stroke="black" stroke-width="1" fill="black" />
-    <text x="8" y="307" font-size="5">y</text>
+    <text class="element" x="8" y="307" font-size="5">y</text>
   </g>
 
   <circle cx="0" cy="0" r="300" fill="white" stroke="black" stroke-width="4" stroke-opacity="25%" fill-opacity="50%" />
