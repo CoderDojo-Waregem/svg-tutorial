@@ -223,14 +223,14 @@ hoeken_2 = [54 + index * 72 for index in range(5)]
 
 # punten van veelhoek berekenen
 punten = []
-for angle_1, angle_2 in zip(hoeken_1, hoeken_2):
+for hoek_1, hoek_2 in zip(hoeken_1, hoeken_2):
     punten.append((
-        straal_1 * math.cos(math.radians(angle_1)),
-        straal_1 * math.sin(math.radians(angle_1)),
+        straal_1 * math.cos(math.radians(hoek_1)),
+        straal_1 * math.sin(math.radians(hoek_1)),
     ))
     punten.append((
-        straal_2 * math.cos(math.radians(angle_2)),
-        straal_2 * math.sin(math.radians(angle_2)),
+        straal_2 * math.cos(math.radians(hoek_2)),
+        straal_2 * math.sin(math.radians(hoek_2)),
     ))
 
 # punten van veelhoek uitschrijven
