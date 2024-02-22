@@ -207,3 +207,39 @@ Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen va
 
 </svg>
 </figure>
+
+### Ster
+
+```python
+import math
+
+# straal van buitenste en binnenste cirkels instellen
+straal_1 = 1.0
+straal_2 = 0.39
+
+# hoeken berekenen
+hoeken_1 = [18 + index * 72 for index in range(5)]
+hoeken_2 = [54 + index * 72 for index in range(5)]
+
+# punten van veelhoek berekenen
+punten = []
+for angle_1, angle_2 in zip(hoeken_1, hoeken_2):
+    punten.append((
+        straal_1 * math.cos(math.radians(angle_1)),
+        straal_1 * math.sin(math.radians(angle_1)),
+    ))
+    punten.append((
+        straal_2 * math.cos(math.radians(angle_2)),
+        straal_2 * math.sin(math.radians(angle_2)),
+    ))
+
+# punten van veelhoek uitschrijven
+print(' '.join(f'{punt[0]:.3f},{-punt[1]:.3f}' for punt in punten))
+```
+
+<figure>
+<svg width="200px" height="200px" viewBox="-1 -1 2 2">
+  <rect x="-1" y="-1" width="2" height="2" fill="#F5F1EB" />
+  <polygon points="0.951,-0.309 0.229,-0.316 0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121" stroke="black" stroke-width="0.01" fill="yellow" />
+</svg>
+</figure>

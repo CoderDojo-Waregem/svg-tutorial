@@ -207,3 +207,39 @@ What does the field of your favourite sport look like? Search online for the ele
 
 </svg>
 </figure>
+
+### Star
+
+```python
+import math
+
+# set radii of outer and inner circle
+radius_1 = 1.0
+radius_2 = 0.39
+
+# compute angles
+angles_1 = [18 + index * 72 for index in range(5)]
+angles_2 = [54 + index * 72 for index in range(5)]
+
+# compute polygon points
+points = []
+for angle_1, angle_2 in zip(angles_1, angles_2):
+    points.append((
+        radius_1 * math.cos(math.radians(angle_1)),
+        radius_1 * math.sin(math.radians(angle_1)),
+    ))
+    points.append((
+        radius_2 * math.cos(math.radians(angle_2)),
+        radius_2 * math.sin(math.radians(angle_2)),
+    ))
+
+# show polygon points
+print(' '.join(f'{point[0]:.3f},{-point[1]:.3f}' for point in points))
+```
+
+<figure>
+<svg width="200px" height="200px" viewBox="-1 -1 2 2">
+  <rect x="-1" y="-1" width="2" height="2" fill="#F5F1EB" />
+  <polygon points="0.951,-0.309 0.229,-0.316 0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121" stroke="black" stroke-width="0.01" fill="yellow" />
+</svg>
+</figure>
