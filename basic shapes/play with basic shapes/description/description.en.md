@@ -238,7 +238,7 @@ print(' '.join(f'{point[0]:.3f},{-point[1]:.3f}' for point in points))
 ```
 
 <figure>
-<svg width="200px" height="200px" viewBox="-1 -1 2 2">
+<svg width="200px" height="200px" viewBox="-1 -1.1 2 2">
   <rect x="-1" y="-1" width="2" height="2" fill="#F5F1EB" />
   <polygon points="0.951,-0.309 0.229,-0.316 0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121" stroke="black" stroke-width="0.01" fill="yellow" />
 </svg>
