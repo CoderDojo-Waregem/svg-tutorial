@@ -210,37 +210,32 @@ Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen va
 
 ### Ster
 
-{: style="code{white-space: pre-wrap;}"}
 ```python
 import math
 
-# straal van buitenste en binnenste cirkels instellen
-straal_1 = 1.0
-straal_2 = 0.39
-
-# hoeken berekenen
-hoeken_1 = [18 + index * 72 for index in range(5)]
-hoeken_2 = [54 + index * 72 for index in range(5)]
+# eigenschappen van ster instellen
+hoekpunten = 5
+starthoek = 90
+buitenstraal = 1.0
+binnenstraal = 0.39
 
 # punten van veelhoek berekenen
-punten = []
-for hoek_1, hoek_2 in zip(hoeken_1, hoeken_2):
-    punten.append((
-        straal_1 * math.cos(math.radians(hoek_1)),
-        straal_1 * math.sin(math.radians(hoek_1)),
-    ))
-    punten.append((
-        straal_2 * math.cos(math.radians(hoek_2)),
-        straal_2 * math.sin(math.radians(hoek_2)),
-    ))
+punten = [
+    (
+        (binnenstraal if index % 2 else buitenstraal) * math.cos(math.radians(hoek)),
+        -(binnenstraal if index % 2 else buitenstraal) * math.sin(math.radians(hoek))
+    )
+    for index, hoek in enumerate(starthoek + index * 360 / (2 * hoekpunten) for index in range(2 * hoekpunten))
+]
 
 # punten van veelhoek uitschrijven
-print(' '.join(f'{punt[0]:.3f},{-punt[1]:.3f}' for punt in punten))
+print(' '.join(f'{punt[0]:.3f},{punt[1]:.3f}' for punt in punten))
 ```
 
 <figure>
 <svg width="400px" height="400px" viewBox="-1 -1.1 2 2">
   <rect x="-1" y="-1.1" width="2" height="2" fill="#F5F1EB" />
-  <polygon points="0.951,-0.309 0.229,-0.316 0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121" stroke="black" stroke-width="0.05" fill="yellow" />
+  <polygon stroke="black" stroke-width="0.05" stroke-linejoin="round" fill="yellow"
+    points="0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121 0.951,-0.309 0.229,-0.316" />
 </svg>
 </figure>
