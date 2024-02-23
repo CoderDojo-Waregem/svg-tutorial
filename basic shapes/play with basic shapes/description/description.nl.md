@@ -210,7 +210,7 @@ Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen va
 
 ### Ster
 
-{: white-space="pre-wrap"}
+{: style="white-space: pre-wrap;"}
 ```python
 import math
 
