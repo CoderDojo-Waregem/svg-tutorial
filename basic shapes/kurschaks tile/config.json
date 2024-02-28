@@ -1,0 +1,13 @@
+{
+  "access": "public",
+  "type": "content",
+  "description": {
+    "names": {
+      "en": "Kürschák’s tile",
+      "nl": "Kürschák's tegel"
+    }
+  },
+  "labels": [
+
+  ]
+}
