@@ -31,11 +31,11 @@ Hungarian mathematician József Kürschák offered this "proof without words" th
 
 If the circle is inscribed in a square, the resulting figure can be tiled by triangles of two families — 16 equilateral triangles whose sides are equal to those of the dodecagon and 32 isosceles triangles with angles 15°-15°-150° and longest side 1. The area of the large square is 4, and the triangles that make up the dodecagon can be rearranged to fill 3 of its quadrants (see the video below). So the area of the dodecagon is 3/4 of 4, or 3.
 
-(To see that the square and the dodecagon can be tiled as claimed, see Alexander Bogomolny’s discussion here.)
-
 <div class="dodona-centered-group">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7lCJDdD_fHs?si=Nt6_AeQfQ__feRZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+To see that the square and the dodecagon can be tiled as claimed, see [Alexander Bogomolny’s discussion here](https://www.cut-the-knot.org/Curriculum/Geometry/KurschakTile.shtml){: target="_blank"}. Or watch this YouTube video:
 
 ### Assignment
 
