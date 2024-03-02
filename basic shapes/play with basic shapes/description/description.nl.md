@@ -162,7 +162,7 @@ De meeste landen hebben vlaggen die bestaan uit rechthoeken, driehoeken, lijnen 
 </svg>
 </figure>
 
-### Sport field
+### Sportveld
 
 Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen van het sportveld en hun afmetingen.
 
