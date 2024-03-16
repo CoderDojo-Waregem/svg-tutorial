@@ -1,3 +1,100 @@
+Now that you have mastered the basic shapes, it is time to make your own drawing. Find a drawing that can be composed of basic shapes. Below we give a few possibilities.
+
+### Ladybug
+
+<figure>
+<svg id="ladybug" xmlns="http://www.w3.org/2000/svg" width="400px"  height="400px" viewBox="-100 -100 200 200">
+
+  <defs>
+    <clipPath id="lichaam-contour">
+      <circle cx="0" cy="40" r="60" />
+    </clipPath>
+    <radialGradient id="ladybug-light" cx="0.35" cy="0.70" r="0.35">
+      <stop offset="0%" stop-color="rgb(255,255,255,0.75)" />
+      <stop offset="100%" stop-color="rgb(255,0,0,0.0)" />
+    </radialGradient>
+  </defs>
+
+  <rect x="-100" y="-100" width="200" height="200" fill="#F5F1EB" />
+
+  <g transform="translate(-10,-15)">
+  <g transform="rotate(20,0,40)">
+  <circle class="hoofd" cx="0" cy="-12" r="30" fill="black" />
+  <circle class="lichaam" cx="0" cy="40" r="60" fill="#ee5564" />
+  <polygon fill="black" points="0,-10 6,100 -6,100" clip-path="url(#lichaam-contour)" />
+  <circle cx="-20" cy="10" r="6" fill="black" />
+  <circle cx="20" cy="10" r="6" fill="black" />
+  <circle cx="-40" cy="40" r="6" fill="black" />
+  <circle cx="40" cy="40" r="6" fill="black" />
+  <circle cx="-25" cy="70" r="6" fill="black" />
+  <circle cx="25" cy="70" r="6" fill="black" />
+  <circle cx="-40" cy="-60" r="3" fill="black" />
+  <circle cx="40" cy="-60" r="3" fill="black" />
+
+  <path stroke="black" stroke-width="3" d="M0,-27 Q0,-50,-40,-60" fill="none" />
+  <path stroke="black" stroke-width="3" d="M0,-27 Q0,-50,40,-60" fill="none" />
+  <circle cx="0" cy="40" r="60" fill="url(#ladybug-light)"/>
+  </g>
+  </g>
+
+</svg>
+</figure>
+
+### Water polo ball
+
+Maxime plays water polo. He designed this ball with his own logo.
+
+<figure>
+<svg id="water_polo" xmlns="http://www.w3.org/2000/svg" width="410px" height="410px" viewBox="-205 -205 410 410">
+
+  <defs>
+    <clipPath id="bal">
+      <circle cx="0" cy="0" r="200" />
+    </clipPath>
+  </defs>
+  
+  <style>
+    text {
+      text-anchor: middle;
+      dominant-baseline: middle;
+      font-family: consolas, monospace;
+      font-weight: bold;
+    }
+  </style>
+
+  # achtergrond
+  <rect x="-205" y="-205" width="410" height="410" fill="#F5F1EB" />
+  
+  # bal
+  <circle cx="0" cy="0" r="200" fill="#fabd12" stroke="black" stroke-width="1"/>
+
+  # rechte verticale naden
+  <line clip-path="url(#bal)" x1="-127.28" y1="180" x2="-127.28" y2="-180" stroke="black" stroke-width="5" />
+  <line clip-path="url(#bal)" x1="127.28" y1="180" x2="127.28" y2="-180" stroke="black" stroke-width="5" />
+
+  # rechte diagonale naden
+  <line clip-path="url(#bal)" x1="-68.40" y1="-187.94" x2="68.40" y2="187.94" stroke="black" stroke-width="5" />
+  <line clip-path="url(#bal)" x1="68.40" y1="-187.94" x2="-68.40" y2="187.93" stroke="black" stroke-width="5" />
+
+  # afgeronde rechtehoek naden
+  <path stroke="#333333" stroke-width="5" fill="#fabd12" stroke-linecap="round"
+    d="M-127.28,-127.28 L127.28,-127.28 A180,180,0,0,1,127.28,127.28 L-127.28,127.28 A180,180,0,0,1,-127.28,-127.28" />
+
+  # kromme horizontale naden
+  <path d="M-177.265,-31.256 Q0,-80,177.265,-31.256" fill="none" stroke="black" stroke-width="5" />
+  <path d="M-177.265,31.256 Q0,80,177.265,31.256" fill="none" stroke="black" stroke-width="5" />
+
+  # logo
+  <text x="0" y="4" fill="black" font-size="75">MAXime</text>
+  
+</svg>
+</figure>
+
+### Collage
+
+Create a Christmassy collage with all the examples we have drawn in this tutorial.
+
+<figure>
 <svg id="collage" xmlns="http://www.w3.org/2000/svg" version="1.1" width="400px" height="400px" viewBox="-100 -100 200 200">
 
   <style>
@@ -149,3 +246,4 @@
   <use href="#strikje" x="180" y="120" transform="scale(0.12)" />
   <use href="#peperkoek" x="130" y="50" transform="rotate(20) scale(0.6)" />
 </svg>
+</figure>
