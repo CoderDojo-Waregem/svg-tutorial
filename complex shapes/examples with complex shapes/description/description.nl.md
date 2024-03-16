@@ -1,4 +1,4 @@
-Now that you master some more complex shapes, you may dare to make some more difficult drawings. Find a drawing that can be composed of basic and more complex shapes. Below we give a few possibilities.
+Nu je de basisvormen, meer complexe vormen en kromme lijnen onder de knie hebt, kan je zowat alles tekenen. Toon je kunsten door een eigen tekening uit je toetsenbord te toveren. Hieronder geven we alvast een paar mogelijkheden.
 
 ### Pokébal
 
@@ -57,7 +57,7 @@ Now that you master some more complex shapes, you may dare to make some more dif
 </svg>
 </figure>
 
-### Sport field
+### Sportveld
 
 Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen van het sportveld en hun afmetingen.
 
