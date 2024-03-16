@@ -45,7 +45,7 @@ Nu je de basisvormen, complexere vormen en gebogen lijnen onder de knie hebt, ku
 Maxime speelt waterpolo. Hij ontwierp deze bal met zijn eigen logo.
 
 <figure>
-<svg id="water_polo" xmlns="http://www.w3.org/2000/svg" width="410px" height="410px" viewBox="-205 -205 410 410">
+<svg id="water_polo" xmlns="http://www.w3.org/2000/svg" width="430px" height="430px" viewBox="-215 -215 430 430">
 
   <defs>
     <clipPath id="bal">
@@ -63,7 +63,7 @@ Maxime speelt waterpolo. Hij ontwierp deze bal met zijn eigen logo.
   </style>
 
   # achtergrond
-  <rect x="-205" y="-205" width="410" height="410" fill="#F5F1EB" />
+  <rect x="-215" y="-215" width="430" height="430" fill="#F5F1EB" />
   
   # bal
   <circle cx="0" cy="0" r="200" fill="#fabd12" stroke="black" stroke-width="1"/>
