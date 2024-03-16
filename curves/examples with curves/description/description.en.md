@@ -1,4 +1,4 @@
-Now that you have mastered the basic shapes, it is time to make your own drawing. Find a drawing that can be composed of basic shapes. Below we give a few possibilities.
+Now that you master basic shapes, more complex shapes and curved lines, you can draw just about anything. Show off your skills by conjuring your own drawing from your keyboard. Below we give a few possibilities.
 
 ### Ladybug
 

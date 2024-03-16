@@ -1,4 +1,4 @@
-Now that you master basic shapes, more complex shapes and curved lines, you can draw just about anything. Show off your skills by conjuring your own drawing from your keyboard. Below we give a few possibilities.
+Nu je de basisvormen, complexere vormen en gebogen lijnen onder de knie hebt, kun je zo ongeveer alles tekenen. Laat je vaardigheden zien door je eigen tekening uit je toetsenbord te toveren. Hieronder geven we een paar mogelijkheden.
 
 ### Lieveheersbeestje
 
