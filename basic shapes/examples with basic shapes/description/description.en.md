@@ -103,7 +103,6 @@ print(' '.join(f'{point[0]:.3f},{point[1]:.3f}' for point in points))
 
 Mattie drew his own version of Kürschák's tile.
 
-<div class="dodona-centered-group">
 <figure>
 <svg xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="-1 -1 2 2">
 <rect x="-1" y="-1" width="2" height="2" stroke="black" stroke-width="0.02" fill="#b6ddc7" />
@@ -130,5 +129,4 @@ Mattie drew his own version of Kürschák's tile.
 <polygon points="0,0 0.354,-0.354 0.500,-0.866 0.129,-0.483" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
 </svg>
 </figure>
-</div>
 

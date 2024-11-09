@@ -103,7 +103,6 @@ print(' '.join(f'{punt[0]:.3f},{punt[1]:.3f}' for punt in punten))
 
 Mattie tekende zijn eigen versie van Kürschák's tegel. 
 
-<div class="dodona-centered-group">
 <figure>
 <svg xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="-1 -1 2 2">
 <rect x="-1" y="-1" width="2" height="2" stroke="black" stroke-width="0.02" fill="#b6ddc7" />
@@ -130,5 +129,4 @@ Mattie tekende zijn eigen versie van Kürschák's tegel.
 <polygon points="0,0 0.354,-0.354 0.500,-0.866 0.129,-0.483" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
 </svg>
 </figure>
-</div>
 
