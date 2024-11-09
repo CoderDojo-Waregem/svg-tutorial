@@ -67,6 +67,16 @@ Most countries have flags consisting of rectangles, triangles, lines and circles
 
 ### Star
 
+<figure>
+<svg width="400px" height="400px" viewBox="-1 -1.1 2 2">
+  <rect x="-1" y="-1.1" width="2" height="2" fill="#F5F1EB" />
+  <polygon stroke="black" stroke-width="0.05" stroke-linejoin="round" fill="yellow"
+    points="0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121 0.951,-0.309 0.229,-0.316" />
+</svg>
+</figure>
+
+The vertices of the star were computed using this Python script.
+
 ```python
 import math
 
@@ -88,6 +98,10 @@ points = [
 # show polygon points
 print(' '.join(f'{point[0]:.3f},{point[1]:.3f}' for point in points))
 ```
+
+### Kürschák's tile
+
+Mattie drew his own version of Kürschák's tile.
 
 <figure>
 <svg width="400px" height="400px" viewBox="-1 -1.1 2 2">

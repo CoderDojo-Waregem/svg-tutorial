@@ -67,6 +67,16 @@ De meeste landen hebben vlaggen die bestaan uit rechthoeken, driehoeken, lijnen 
 
 ### Ster
 
+<figure>
+<svg width="400px" height="400px" viewBox="-1 -1.1 2 2">
+  <rect x="-1" y="-1.1" width="2" height="2" fill="#F5F1EB" />
+  <polygon stroke="black" stroke-width="0.05" stroke-linejoin="round" fill="yellow"
+    points="0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121 0.951,-0.309 0.229,-0.316" />
+</svg>
+</figure>
+
+De hoekpunten van de ster werden met dit Python-script berekend.
+
 ```python
 import math
 
@@ -88,6 +98,10 @@ punten = [
 # punten van veelhoek uitschrijven
 print(' '.join(f'{punt[0]:.3f},{punt[1]:.3f}' for punt in punten))
 ```
+
+### Kürschák's tegel
+
+Mattie tekende zijn eigen versie van Kürschák's tegel. 
 
 <figure>
 <svg width="400px" height="400px" viewBox="-1 -1.1 2 2">
