@@ -3,7 +3,7 @@ Een SVG-bestand is een tekstbestand. Je hebt enkel een teksteditor nodig om de t
 Wij zullen gebruikmaken van de online teksteditor [SVG Viewer](https://www.svgviewer.dev/){: target="_blank"}. Daarmee hoef je helemaal geen editor te installeren op je computer, en krijg je bij elke aanpassing meteen ook het resultaat van de afbeelding te zien.
 
 <div class="dodona-centered-group">
-  <img width="100%" src="media/svg_viewer.png" data-caption="In de online teksteditor SVG Viewer kan je de tekst van een SVG-afbeelding schrijven in de editor aan de linkerkant, en krijg je aan de rechterkant meteen het resultaat te zien." />
+  <img width="90%" src="media/svg_viewer.png" data-caption="In de online teksteditor SVG Viewer kan je de tekst van een SVG-afbeelding schrijven in de editor aan de linkerkant, en krijg je aan de rechterkant meteen het resultaat te zien." />
 </div>
 
 In de SVG Viewer kan je de tekst van een SVG-afbeelding schrijven in de editor aan de linkerkant. Aan de rechterkant krijg je meteen het resultaat te zien. Het is handig dat de rand van de SVG-afbeelding weergegeven wordt met een stippellijn. Je kunt ook makkelijk afbeeldingen ophalen vanaf je computer en opslaan op je computer. 
