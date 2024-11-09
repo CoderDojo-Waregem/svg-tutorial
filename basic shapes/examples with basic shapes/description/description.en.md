@@ -103,10 +103,32 @@ print(' '.join(f'{point[0]:.3f},{point[1]:.3f}' for point in points))
 
 Mattie drew his own version of Kürschák's tile.
 
+<div class="dodona-centered-group">
 <figure>
-<svg width="400px" height="400px" viewBox="-1 -1.1 2 2">
-  <rect x="-1" y="-1.1" width="2" height="2" fill="#F5F1EB" />
-  <polygon stroke="black" stroke-width="0.05" stroke-linejoin="round" fill="yellow"
-    points="0.000,-1.000 -0.229,-0.316 -0.951,-0.309 -0.371,0.121 -0.588,0.809 -0.000,0.390 0.588,0.809 0.371,0.121 0.951,-0.309 0.229,-0.316" />
+<svg xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="-1 -1 2 2">
+<rect x="-1" y="-1" width="2" height="2" stroke="black" stroke-width="0.02" fill="#b6ddc7" />
+<line x1="1.000" y1="-1.000" x2="0.866" y2="-0.500" stroke="black" stroke-width="0.01" />
+<line x1="1.000" y1="-1.000" x2="0.500" y2="-0.866" stroke="black" stroke-width="0.01" />
+<line x1="-1.000" y1="-1.000" x2="-0.500" y2="-0.866" stroke="black" stroke-width="0.01" />
+<line x1="-1.000" y1="-1.000" x2="-0.866" y2="-0.500" stroke="black" stroke-width="0.01" />
+<line x1="-1.000" y1="1.000" x2="-0.866" y2="0.500" stroke="black" stroke-width="0.01" />
+<line x1="-1.000" y1="1.000" x2="-0.500" y2="0.866" stroke="black" stroke-width="0.01" />
+<line x1="1.000" y1="1.000" x2="0.500" y2="0.866" stroke="black" stroke-width="0.01" />
+<line x1="1.000" y1="1.000" x2="0.866" y2="0.500" stroke="black" stroke-width="0.01" />
+<polygon points="0.000,-1.000 -0.500,-0.866 -0.866,-0.500 -1.000,-0.000 -0.866,0.500 -0.500,0.866 -0.000,1.000 0.500,0.866 0.866,0.500 1.000,0.000 0.866,-0.500 0.500,-0.866" stroke="black" stroke-width="0.01" fill="#fce9ea" />
+<polygon points="0,0 0.129,-0.483 0.000,-1.000 -0.129,-0.483" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 -0.129,-0.483 -0.500,-0.866 -0.354,-0.354" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 -0.354,-0.354 -0.866,-0.500 -0.483,-0.129" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 -0.483,-0.129 -1.000,-0.000 -0.483,0.129" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 -0.483,0.129 -0.866,0.500 -0.354,0.354" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 -0.354,0.354 -0.500,0.866 -0.129,0.483" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 -0.129,0.483 -0.000,1.000 0.129,0.483" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 0.129,0.483 0.500,0.866 0.354,0.354" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 0.354,0.354 0.866,0.500 0.483,0.129" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 0.483,0.129 1.000,0.000 0.483,-0.129" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 0.483,-0.129 0.866,-0.500 0.354,-0.354" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
+<polygon points="0,0 0.354,-0.354 0.500,-0.866 0.129,-0.483" stroke="black" stroke-width="0.01" fill="#ef9ba0" />
 </svg>
 </figure>
+</div>
+
