@@ -102,3 +102,21 @@ What does the field of your favourite sport look like? Search online for the ele
 
 </svg>
 </figure>
+
+### Millennium Falcon
+
+Daan has drawn the Millennium Falcon.
+
+<svg width="400px" hight="400px" viewBox="-100 -100 200 200">
+<rect x="-100" y="-100" width="200" height="200" fill="black" />
+<circle cx="-50" cy="O" r="40" fill="#808080" /> 
+<defs>
+    <clipPath id="bal">
+    <circle cx="-100" cy="0" r="135" fill="none" />
+    </clipPath>
+</defs>
+<polygon clip-path="url(#bal)" points="-50,-40 40,-40 -50,0" fill="#808080" />
+<polygon clip-path="url(#bal)" points="-50,0 -50,40 40,40" fill="#808080" />
+<rect x="50" y="-40" width="10" height="5" fill="red" />
+<rect x="50" y="35" width="10" height="5" fill="red" />
+</svg>
