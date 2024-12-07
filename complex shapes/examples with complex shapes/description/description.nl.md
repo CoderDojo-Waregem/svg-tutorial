@@ -105,9 +105,10 @@ Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen va
 
 ### Millennium Falcon
 
-Daan tekende de Millennium Falcon
+Daan tekende de Millennium Falcon.
 
-<svg width="200px" hight="200px" viewBox="-100 -100 200 200">
+<svg width="600px" hight="600px" viewBox="-100 -100 200 200">
+<rect x="-100" y="-100" width="200" height="200" fill="black" />
 <circle cx="-50" cy="O" r="40" fill="#808080" /> 
 <defs>
     <clipPath id="bal">
