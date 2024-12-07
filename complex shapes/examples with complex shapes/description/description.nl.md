@@ -102,3 +102,20 @@ Hoe ziet het veld eruit van je favoriete sport? Zoek online naar de elementen va
 
 </svg>
 </figure>
+
+### Millennium Falcon
+
+Daan tekende de Millennium Falcon
+
+<svg width="200px" hight="200px" viewBox="-100 -100 200 200">
+<circle cx="-50" cy="O" r="40" fill="#808080" /> 
+<defs>
+    <clipPath id="bal">
+    <circle cx="-100" cy="0" r="135" fill="none" />
+    </clipPath>
+</defs>
+<polygon clip-path="url(#bal)" points="-50,-40 40,-40 -50,0" fill="#808080" />
+<polygon clip-path="url(#bal)" points="-50,0 -50,40 40,40" fill="#808080" />
+<rect x="50" y="-40" width="10" height="5" fill="red" />
+<rect x="50" y="35" width="10" height="5" fill="red" />
+</svg>
