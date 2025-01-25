@@ -3,13 +3,11 @@
   "type": "content",
   "description": {
     "names": {
-      "en": "Cubic Bézier curves",
-      "nl": "Kubische Bézierkrommen"
+      "en": "Curves with two control points",
+      "nl": "Krommen met twee controlepunten"
     }
   },
-  "labels": [
-
-  ],
+  "labels": [],
   "internals": {
     "token": "7NkXHA3Y5peiw2f7mcqFgRrBtds6wi2ItY6jK2rTAbRymbJE2f_4Nmf-qBb2wbJr",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
