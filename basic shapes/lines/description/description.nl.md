@@ -1,4 +1,4 @@
-Heet zal je misschien verbazen hoe eenvoudig het is om dit peperkoeken mannetje te tekenen op basis van een aantal lijnen. We leren ook hoe je de uiteinden van lijnen en de hoekpunten van rechthoeken kunt afronden.
+Het zal je misschien verbazen hoe eenvoudig het is om dit peperkoeken mannetje te tekenen op basis van een aantal lijnen. We leren ook hoe je de uiteinden van lijnen en de hoekpunten van rechthoeken kunt afronden.
 
 <figure>
 <svg width="200px" height="200px" viewBox="-100 -100 200 200">
