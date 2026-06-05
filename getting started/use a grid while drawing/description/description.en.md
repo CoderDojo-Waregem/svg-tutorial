@@ -1,4 +1,4 @@
-Als zelf tekeningen maakt, dan kan handig zijn om het **kijkvenster** zichtbaar te maken, of zelfs om het assenstelsel zichtbaar te maken. We leggen kort uit hoe je dat kan doen voor een kijkvenster met breedte 200 en hoogte 200 waarbij de oorsprong (het punt $$(0,0)$$) in het midden van het kijkvenster ligt. De linkerbovenhoek van het kijkvenster ligt dus in het punt $$(-100, -100)$$.
+If you’re creating your own drawings, it can be helpful to display the **viewport**, or even to display the coordinate axes. We’ll briefly explain how to do this for a viewport with a width of 200 and a height of 200, where the origin (the point $$(0,0)$$) is located in the center of the viewport. The top-left corner of the viewport is therefore at the point $$(-100, -100)$$.
 
 ```html
 <svg viewBox="-100 -100 200 200">
@@ -6,16 +6,16 @@ Als zelf tekeningen maakt, dan kan handig zijn om het **kijkvenster** zichtbaar 
 </svg> 
 ```
 
-We tekenen ook een doorzichtige groene cirkel met middelpunt $$(30, 50)$$ en straal 40. We tekenen een kleine zwarte cirkel om de positie van het middelpunt zichtbaar te maken
+We also draw a transparent green circle with center at $$(30, 50)$$ and radius 40. We draw a small black circle to show the position of the center
 
 ```html
 <circle cx="30" cy="50" r="40" fill="rgb(0,255,0,0.5)" />
 <circle cx="30" cy="50" r="2" fill="black" />
 ```
 
-### Kijkvenster zichtbaar maken
+### Draw the viewport
 
-Het kijkvenster kan je zichtbaar maken door het `style` attribuut van het `svg` element te gebruiken om de rand (`border`) in te stellen op een dunne (`1px`) zwarte (`black`) gestreepte (`dashed`) lijn. We kunnen ook de achtergrondkleur (`background-color`) instellen op de kleur `#F5F1EB`.
+You can make the viewport visible by using the `style` attribute of the `svg` element to set the border to a thin (`1px`) black (`black`) dashed (`dashed`) line. We can also set the background color (`background-color`) to `#F5F1EB`.
 
 ```html
 <svg width="400px" height="400px" viewBox="-100 -100 200 200" 
@@ -35,10 +35,9 @@ Het kijkvenster kan je zichtbaar maken door het `style` attribuut van het `svg` 
 </svg>
 </figure>
 
-### Assenstelsel tekenen
+### Drawing the axis system
 
-Om afbeeldingselementen te plaatsen, is het handig om ook het assenstelsel bij de hand te hebben. Hieronder tekenen we bij de tientallen langs de assen een dunne blauwe lijn (zowel horizontaal als verticaal) en bij de hondertallen tekenen we iets dikkere lijnen. De oorsprong $$(0,0)$$ ligt in het midden van de tekening, waar de twee dikkere lijnen elkaar kruisen.
-
+To place the elements of the diagram, it is helpful to have the coordinate axes handy. Below, we draw a thin blue line (both horizontal and vertical) at the tens along the axes, and slightly thicker lines at the hundreds. The origin $$(0,0)$$ lies at the center of the drawing, where the two thicker lines intersect.
 ```html
 <svg width="400px" height="400px" viewBox="-100 -100 200 200">
 
@@ -93,4 +92,4 @@ Om afbeeldingselementen te plaatsen, is het handig om ook het assenstelsel bij d
 </svg>
 </figure>
 
-Als je bij de weergave-instelling van het rooster `display: initial;` vervangt door `display: none;` dan wordt het rooster verborgen. Op die manier kan je het rooster snel weergeven en verbergen.
+If you replace `display: initial;` with `display: none;` in the grid's display settings, the grid will be hidden. This allows you to quickly show and hide the grid.
